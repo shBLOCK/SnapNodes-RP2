@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/demos/falling_sand/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/snapnodes_rp2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-embedded-hal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-executor-macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-executor-timer-queue/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-executor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-executor/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-futures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-hal-internal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-rp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-sync/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-sync/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-time-driver/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-time-queue-utils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-time/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embassy/embassy-usb-driver/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/snapnodes_rp2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

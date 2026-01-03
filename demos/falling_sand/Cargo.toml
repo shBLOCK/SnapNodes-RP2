@@ -1,0 +1,61 @@
+[package]
+name = "falling_sand"
+version = "0.1.0"
+edition.workspace = true
+
+[[bin]]
+name = "falling_sand"
+path = "src/main.rs"
+test = false
+bench = false
+
+[dependencies]
+embassy-executor = { workspace = true, features = [
+    "arch-cortex-m",
+    "executor-interrupt",
+    "defmt"
+] }
+embassy-time = { workspace = true, features = ["defmt"] }
+embassy-sync = { workspace = true, features = ["defmt"] }
+embassy-futures = { workspace = true, features = ["defmt"] }
+embassy-embedded-hal = { workspace = true, features = ["defmt"] }
+embassy-rp = { version = "0.9.0", path = "../../embassy/embassy-rp", features = [
+    "rp235xb",
+    "unstable-pac",
+    "time-driver",
+    "critical-section-impl",
+    "binary-info",
+    "defmt"
+] }
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+embedded-hal-bus = { version = "0.3.0", features = ["async"] }
+
+embedded-graphics = "0.8.1"
+lcd-async = "0.1.1"
+#mipidsi = "0.9.0"
+#display-interface = "0.5.0"
+#display-interface-spi = "0.5.0"
+
+static_cell = { workspace = true }
+heapless = { workspace = true }
+
+num-traits = { workspace = true }
+fixed = { workspace = true }
+nalgebra = { workspace = true }
+nalgebra-glm = { workspace = true }
+
+defmt = { workspace = true }
+
+embedded-alloc = "0.6.0"
+
+defmt-rtt = "1.1.0"
+
+cortex-m = { version = "0.7.6", features = ["inline-asm"] }
+cortex-m-rt = "0.7.0"
+panic-probe = { version = "1.0.0", features = ["print-defmt"] }
+
+[package.metadata.embassy]
+build = [
+    { target = "thumbv8m.main-none-eabihf", artifact-dir = "out/rp2350" }
+]

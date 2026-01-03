@@ -1,0 +1,42 @@
+[workspace]
+resolver = "3"
+members = [
+    "snapnodes_rp2",
+    "demos/falling_sand",
+]
+
+[workspace.package]
+edition = "2024"
+
+[patch.crates-io]
+embassy-time-driver = { path = "embassy/embassy-time-driver" }
+embassy-rp = { path = "embassy/embassy-rp" }
+
+[workspace.dependencies]
+embassy-executor = { version = "0.9.1", path = "embassy/embassy-executor", features = ["executor-thread"] }
+embassy-time = { version = "0.5.0", path = "embassy/embassy-time" }
+embassy-sync = { version = "0.7.2", path = "embassy/embassy-sync" }
+embassy-futures = { version = "0.1.2", path = "embassy/embassy-futures" }
+embassy-embedded-hal = { version = "0.5.0", path = "embassy/embassy-embedded-hal" }
+critical-section = "1.2.0"
+
+libm = { version = "0.2.15" }
+#glam = { version = "0.30.9", default-features = false, features = ["libm"] }
+nalgebra = { version = "0.34.1", default-features = false, features = ["macros", "libm"] }
+nalgebra-glm = { version = "0.20.0", default-features = false }
+fixed = { version = "1.29.0", default-features = false, features = ["num-traits", "serde"] }
+num-traits = { version = "0.2.19", default-features = false }
+heapless = "0.8.0"
+static_cell = "2.1.1"
+derive_more = { version = "2.0.1", default-features = false }
+serde = { version = "1.0.228", default-features = false, features = ["alloc", "derive"] }
+dynify = { version = "0.1.2", features = ["smallvec"] }
+smallvec = { version = "1.15.1" }
+uuid = { version = "1.18.1", default-features = false, features = ["v3"] }
+md5 = { version = "0.8.0", default-features = false }
+bit-vec = { version = "0.8.0", default-features = false }
+itertools = { version = "0.14.0", default-features = false, features = ["use_alloc"] }
+
+defmt = { version = "1.0.1", features = ["alloc"] }
+log = "0.4.29"
+defmt-or-log = "0.2.3"
