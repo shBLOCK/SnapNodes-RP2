@@ -614,9 +614,9 @@ dependencies = [
 
 [[package]]
 name = "embedded-alloc"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f2de9133f68db0d4627ad69db767726c99ff8585272716708227008d3f1bddd"
+checksum = "2db634e07f552215f7a3572dc0a4d29760c637fcea5a8c18d2cc291f782c216c"
 dependencies = [
  "const-default",
  "critical-section",
@@ -775,6 +775,7 @@ dependencies = [
  "fixed",
  "heapless",
  "lcd-async",
+ "lsm6ds3tr",
  "nalgebra",
  "nalgebra-glm",
  "num-traits",
@@ -1173,6 +1174,15 @@ dependencies = [
  "scoped-tls",
  "tracing",
  "tracing-subscriber",
+]
+
+[[package]]
+name = "lsm6ds3tr"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "74968b469e4c72ca71e9245e4acdc8e946e53b2e7b8bd30ee655af596ef37d75"
+dependencies = [
+ "embedded-hal 1.0.0",
 ]
 
 [[package]]

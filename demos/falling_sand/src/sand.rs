@@ -1,5 +1,8 @@
+use crate::direction::Direction;
 use crate::slots::{MappedSlots, MappedSlotsOutOfBoundsError, MappedSlotsPopAtError, MappedSlotsPushError};
 use alloc::boxed::Box;
+use core::f32::math::{floor, fract};
+use defmt::*;
 use embedded_graphics::pixelcolor::Rgb888;
 use nalgebra_glm as glm;
 use nalgebra_glm::{I16Vec2, U16Vec2, Vec2, vec2};
@@ -7,6 +10,7 @@ use num_traits::Zero;
 
 pub trait ParticleBehavior: Copy {
     fn slot_pos(&self) -> I16Vec2;
+    fn set_slot_pos(&mut self, pos: I16Vec2);
 
     async fn tick(&mut self, world: &mut impl World) {}
 }
@@ -15,15 +19,23 @@ pub trait ParticleBehavior: Copy {
 pub struct Dust {
     pos: Vec2,
     velocity: Vec2,
-    color: Rgb888,
+    pub color: Rgb888,
 }
 
 impl Dust {
-    async fn should_bounce(&self, world: &mut impl World, pos: I16Vec2) -> bool {
+    pub fn new(pos: I16Vec2, color: Rgb888) -> Dust {
+        Self {
+            pos: glm::convert::<_, Vec2>(pos).add_scalar(0.5),
+            velocity: Vec2::zeros(),
+            color,
+        }
+    }
+
+    async fn could_move_to(&self, world: &mut impl World, pos: I16Vec2) -> bool {
         match world.get_particle_at(pos).await {
-            Ok(Some(_)) => true,
-            Err(WorldOutOfBoundsError) => true,
-            _ => false,
+            Ok(Some(_)) => false,
+            Err(WorldOutOfBoundsError) => false,
+            _ => true,
         }
     }
 }
@@ -33,35 +45,130 @@ impl ParticleBehavior for Dust {
         glm::try_convert(glm::floor(&self.pos)).unwrap()
     }
 
+    fn set_slot_pos(&mut self, pos: I16Vec2) {
+        self.pos = glm::convert::<_, Vec2>(pos).add_scalar(0.5);
+    }
+
     async fn tick(&mut self, world: &mut impl World) {
-        self.velocity *= 0.8;
-        self.velocity += world.get_gravity(self.pos) * 0.1;
+        const RESTITUTION: f32 = 0.0;
+
+        self.velocity *= 0.85;
+
+        let gravity = world.get_gravity(self.pos);
+        self.velocity += gravity * 0.1;
+
+        // debug!("Velocity: {}", Debug2Format(&self.velocity));
+        // debug!("Position: {}", Debug2Format(&self.pos));
 
         {
-            // use this to flip the space so that delta has positive elements (_pe)
-            let flip = self.velocity.map(|it| if it >= 0.0 { 1.0 } else { -1.0 });
-            let flip_i16 = glm::try_convert::<_, I16Vec2>(flip).unwrap();
-            let mut delta_pe = self.velocity.component_mul(&flip);
-            let mut pos_pe = self.pos;
-            while !pos_pe.is_zero() {
-                let old_slot_pos = glm::try_convert::<_, I16Vec2>(glm::floor(&pos_pe))
-                    .unwrap()
-                    .component_mul(&flip_i16);
+            let mut delta = self.velocity;
+            let mut pos = self.pos.map(|it| if fract(it) == 0.0 { it.next_up() } else { it }); // avoid being at edge of cell
+            loop {
+                let old_slot_pos = glm::try_convert::<_, I16Vec2>(glm::floor(&pos)).unwrap();
 
-                // let delta_slope_pe = delta_pe.y / delta_pe.x;
-                //
-                // let ceil_pos_pe = glm::ceil(&pos_pe);
+                let simple_move_pos = pos + delta;
+                let simple_move_slot_pos = glm::try_convert::<_, I16Vec2>(glm::floor(&simple_move_pos)).unwrap();
+                if simple_move_slot_pos != old_slot_pos {
+                    // march through the grid
 
-                let new_slot_pos_f = glm::floor(&pos_pe).component_mul(&flip);
-                let new_slot_pos = glm::try_convert::<_, I16Vec2>(new_slot_pos_f).unwrap();
+                    // use this to flip the space so that delta has positive elements (_pe)
+                    // let flip = delta.map(|it| if it >= 0.0 { 1.0 } else { -1.0 });
+                    let flip = delta.map(f32::signum);
+                    let flip_i16 = glm::convert_unchecked::<_, I16Vec2>(flip);
+                    let mut pos_pe = pos.component_mul(&flip);
+                    let mut delta_pe = delta.component_mul(&flip);
+                    let ceil_pos_pe = glm::ceil(&pos_pe);
+                    let pos_to_ceil_pos_pe = ceil_pos_pe - pos_pe;
+                    // core::assert!(pos_to_ceil_pos_pe.x != 0.0 && pos_to_ceil_pos_pe.y != 0.0);
+                    // core::assert!(!delta_pe.is_zero(), "delta_pe: {:?}, old: {:?}, simple: {:?}", delta_pe, old_slot_pos, simple_move_slot_pos);
+                    let step_len_xy_pe = pos_to_ceil_pos_pe.component_div(&delta_pe);
+                    // core::assert!(!step_len_xy_pe.iter().all(|it| !it.is_finite()));
+                    if step_len_xy_pe.x <= step_len_xy_pe.y {
+                        // should step in x direction
+                        let step_y_pe = delta_pe.y * step_len_xy_pe.x;
+                        // core::assert!(step_y_pe.is_finite(), "{:?} {:?} {:?}", step_len_xy_pe, pos_to_ceil_pos_pe, delta_pe);
+                        pos_pe.y += step_y_pe;
+                        delta_pe.y -= step_y_pe;
+                        delta_pe.x -= pos_to_ceil_pos_pe.x;
+                        if self
+                            .could_move_to(world, vec2(old_slot_pos.x + flip_i16.x, old_slot_pos.y))
+                            .await
+                        {
+                            let new_x_pe = ceil_pos_pe.x.next_up();
+                            pos_pe.x = new_x_pe;
+                        } else {
+                            pos_pe.x = ceil_pos_pe.x.next_down();
+                            delta_pe.x *= -RESTITUTION;
+                            self.velocity.x *= -RESTITUTION;
+                        }
+                    } else {
+                        // should step in y direction
+                        let step_x_pe = delta_pe.x * step_len_xy_pe.y;
+                        // core::assert!(step_x_pe.is_finite());
+                        pos_pe.x += step_x_pe;
+                        delta_pe.x -= step_x_pe;
+                        delta_pe.y -= pos_to_ceil_pos_pe.y;
+                        if self
+                            .could_move_to(world, vec2(old_slot_pos.x, old_slot_pos.y + flip_i16.y))
+                            .await
+                        {
+                            pos_pe.y = ceil_pos_pe.y.next_up();
+                        } else {
+                            pos_pe.y = ceil_pos_pe.y.next_down();
+                            delta_pe.y *= -RESTITUTION;
+                            self.velocity.y *= -RESTITUTION;
+                        }
+                    }
 
-                if new_slot_pos != old_slot_pos {
-                    // move one step
-                    self.pos = new_slot_pos_f + 0.5;
-                    world.swap_particle(old_slot_pos, new_slot_pos);
+                    pos = pos_pe.component_mul(&flip);
+                    delta = delta_pe.component_mul(&flip);
+
+                    let new_slot_pos_f = glm::floor(&pos);
+                    let new_slot_pos = glm::try_convert::<_, I16Vec2>(new_slot_pos_f).unwrap();
+                    if new_slot_pos != old_slot_pos {
+                        // move one step
+                        if let Err(_) = world.swap_particles(old_slot_pos, new_slot_pos).await {
+                            error!("swap_particles failed: {:?}", Debug2Format(&pos));
+                        }
+                    }
                 } else {
-                    // reached final pos
-                    self.pos = pos_pe.component_mul(&flip);
+                    // we are at final cell
+                    pos = simple_move_pos;
+
+                    fn fmod1(x: f32) -> f32 {
+                        x - floor(x)
+                    }
+
+                    // check x collision
+                    let x_neighbor_direction = if fmod1(pos.x) < 0.5 {
+                        Direction::NegX
+                    } else {
+                        Direction::PosX
+                    };
+                    if !self
+                        .could_move_to(world, simple_move_slot_pos + x_neighbor_direction.i16vec2())
+                        .await
+                    {
+                        pos.x = floor(pos.x) + 0.5;
+                        self.velocity.x *= -RESTITUTION;
+                    }
+
+                    // check y collision
+                    let y_neighbor_direction = if fmod1(pos.y) < 0.5 {
+                        Direction::NegY
+                    } else {
+                        Direction::PosY
+                    };
+                    if !self
+                        .could_move_to(world, simple_move_slot_pos + y_neighbor_direction.i16vec2())
+                        .await
+                    {
+                        pos.y = floor(pos.y) + 0.5;
+                        self.velocity.y *= -RESTITUTION;
+                    }
+
+                    self.pos = pos;
+
                     break;
                 }
             }
@@ -80,6 +187,12 @@ impl ParticleBehavior for Particle {
         }
     }
 
+    fn set_slot_pos(&mut self, pos: I16Vec2) {
+        match self {
+            Particle::Dust(particle) => particle.set_slot_pos(pos),
+        }
+    }
+
     async fn tick(&mut self, world: &mut impl World) {
         match self {
             Particle::Dust(particle) => particle.tick(world).await,
@@ -87,6 +200,7 @@ impl ParticleBehavior for Particle {
     }
 }
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub struct WorldOutOfBoundsError;
 
 impl From<MappedSlotsOutOfBoundsError> for WorldOutOfBoundsError {
@@ -95,6 +209,7 @@ impl From<MappedSlotsOutOfBoundsError> for WorldOutOfBoundsError {
     }
 }
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub enum SpawnParticleError {
     OutOfBounds,
     Conflict,
@@ -111,6 +226,7 @@ impl From<MappedSlotsPushError> for SpawnParticleError {
     }
 }
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub enum KillParticleError {
     OutOfBounds,
     NothingThere,
@@ -134,6 +250,8 @@ pub trait World {
     async fn spawn_particle(&mut self, particle: Particle) -> Result<(), SpawnParticleError>;
     async fn kill_particle_at(&mut self, pos: I16Vec2) -> Result<Particle, KillParticleError>;
 
+    async fn swap_particles(&mut self, pos1: I16Vec2, pos2: I16Vec2) -> Result<(), WorldOutOfBoundsError>;
+
     async fn tick(&mut self) {}
 }
 
@@ -154,7 +272,11 @@ where
 {
     pub fn new() -> Self {
         Self {
-            particles: Box::new(MappedSlots::new()),
+            particles: unsafe {
+                let mut it = Box::<MappedSlots<Particle, u16, { WIDTH as usize }, { HEIGHT as usize }, { MAX_PARTICLES as usize }>>::new_uninit().assume_init();
+                it.init();
+                it
+            },
             global_gravity: vec2(0.0, 0.0),
         }
     }
@@ -174,12 +296,11 @@ where
     }
 
     async fn get_particle_at(&self, pos: I16Vec2) -> Result<Option<Particle>, WorldOutOfBoundsError> {
-        Some(
-            *self
-                .particles
-                .get_at(glm::convert_unchecked::<_, U16Vec2>(pos))?
-                .map(|it| it.item),
-        )
+        Ok(self
+            .particles
+            .get_at(glm::convert_unchecked::<_, U16Vec2>(pos))?
+            .map(|it| it.item)
+            .copied())
     }
 
     async fn spawn_particle(&mut self, particle: Particle) -> Result<(), SpawnParticleError> {
@@ -193,10 +314,30 @@ where
         Ok(self.particles.pop_at(glm::convert_unchecked::<_, U16Vec2>(pos))?)
     }
 
+    async fn swap_particles(&mut self, pos1: I16Vec2, pos2: I16Vec2) -> Result<(), WorldOutOfBoundsError> {
+        let upos1 = glm::try_convert::<_, U16Vec2>(pos1).ok_or(WorldOutOfBoundsError)?;
+        let upos2 = glm::try_convert::<_, U16Vec2>(pos2).ok_or(WorldOutOfBoundsError)?;
+        let slot1 = self.particles.get_slot_at(upos1)?;
+        let slot2 = self.particles.get_slot_at(upos2)?;
+        slot1
+            .and_then(|it| self.particles.get_mut(it))
+            .map(|it| it.set_slot_pos(pos2));
+        slot2
+            .and_then(|it| self.particles.get_mut(it))
+            .map(|it| it.set_slot_pos(pos1));
+        unsafe {
+            self.particles.set_slot_at(upos1, slot2).unwrap();
+            self.particles.set_slot_at(upos2, slot1).unwrap();
+        }
+        Ok(())
+    }
+
     async fn tick(&mut self) {
+        core::assert_eq!(MAX_PARTICLES, 10000);
         for slot in 0..MAX_PARTICLES {
+            let slot = ((slot as u32 * 2573) % 10000) as u16; // tmp
             if let Some(particle) = self.particles.get_mut(slot) {
-                unsafe { *(particle as *mut Particle) }.tick(self).await;
+                unsafe { &mut *(particle as *mut Particle) }.tick(self).await;
             }
         }
     }

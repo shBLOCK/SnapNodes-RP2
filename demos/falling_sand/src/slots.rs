@@ -16,6 +16,12 @@ impl<T, S: PrimInt + Unsigned + Scalar + Into<usize> + core::iter::Step + Debug,
             free: heapless::Vec::from_iter(S::zero()..S::from(N).unwrap()),
         }
     }
+    
+    pub unsafe fn init(&mut self) {
+        self.slots.fill_with(|| None);
+        self.free.set_len(0);
+        self.free.extend(S::zero()..S::from(N).unwrap());
+    }
 
     pub fn push(&mut self, item: T) -> Result<S, ()> {
         let slot = self.free.pop().ok_or(())?;
@@ -66,22 +72,38 @@ impl<
             map: [[S::max_value(); W]; H],
         }
     }
+    
+    pub unsafe fn init(&mut self) {
+        self.slots.init();
+        self.map.iter_mut().for_each(|it| it.fill_with(S::max_value))
+    }
 
     pub fn get_slot_at<P: PrimInt + Unsigned + Scalar + Into<usize>>(
         &self,
         pos: TVec2<P>,
     ) -> Result<Option<S>, MappedSlotsOutOfBoundsError> {
-        let slot = self
+        let slot_ref = self
             .map
             .get(pos.y.into())
             .ok_or(MappedSlotsOutOfBoundsError)?
             .get(pos.x.into())
             .ok_or(MappedSlotsOutOfBoundsError)?;
-        if *slot != S::max_value() {
-            Ok(Some(*slot))
+        if *slot_ref != S::max_value() {
+            Ok(Some(*slot_ref))
         } else {
             Ok(None)
         }
+    }
+    
+    pub unsafe fn set_slot_at<P: PrimInt + Unsigned + Scalar + Into<usize>>(
+        &mut self,
+        pos: TVec2<P>,
+        slot: Option<S>,
+    ) -> Result<(), MappedSlotsOutOfBoundsError> {
+        let slot = slot.unwrap_or(S::max_value());
+        let slot_ref = self.get_raw_slot_mut(pos).ok_or(MappedSlotsOutOfBoundsError)?;
+        *slot_ref = slot;
+        Ok(())
     }
 
     fn get_raw_slot_mut<P: PrimInt + Unsigned + Scalar + Into<usize>>(&mut self, pos: TVec2<P>) -> Option<&mut S> {
@@ -155,15 +177,18 @@ pub struct SlotItem<T, S> {
     pub slot: S,
 }
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub enum MappedSlotsPushError {
     PosOutOfBounds,
     AlreadyOccupied,
     Full,
 }
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub enum MappedSlotsPopAtError {
     PosOutOfBounds,
     NotOccupied,
 }
 
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
 pub struct MappedSlotsOutOfBoundsError;
