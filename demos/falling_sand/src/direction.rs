@@ -16,7 +16,7 @@ impl Direction {
             Direction::PosY => Vec2::new(0.0, 1.0),
         }
     }
-    
+
     pub const fn i16vec2(self) -> I16Vec2 {
         match self {
             Direction::NegX => I16Vec2::new(-1, 0),
@@ -40,5 +40,56 @@ impl Direction {
                 Direction::PosY
             }
         }
+    }
+}
+
+#[derive(Clone, Copy, Debug)]
+pub enum CornerDirection {
+    NegXNegY,
+    PosXNegY,
+    NegXPosY,
+    PosXPosY,
+}
+impl CornerDirection {
+    pub const fn i16vec2(self) -> I16Vec2 {
+        match self {
+            CornerDirection::NegXNegY => I16Vec2::new(-1, -1),
+            CornerDirection::PosXNegY => I16Vec2::new(1, -1),
+            CornerDirection::NegXPosY => I16Vec2::new(-1, 1),
+            CornerDirection::PosXPosY => I16Vec2::new(1, 1),
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug)]
+pub enum EightDirection {
+    Axis(Direction),
+    Corner(CornerDirection),
+}
+impl EightDirection {
+    pub const fn i16vec2(self) -> I16Vec2 {
+        match self {
+            EightDirection::Axis(it) => it.i16vec2(),
+            EightDirection::Corner(it) => it.i16vec2(),
+        }
+    }
+
+    // pub const fn cw(self) -> Self {
+    //     match self {
+    //         EightDirection::Axis(Direction::NegX) => EightDirection::Corner(CornerDirection::NegXNegY),
+    //         EightDirection::Corner(CornerDirection::NegXNegY) => EightDirection::Corner(CornerDirection::NegXPosY),
+    //     }
+    // }
+}
+
+impl From<Direction> for EightDirection {
+    fn from(value: Direction) -> Self {
+        Self::Axis(value)
+    }
+}
+
+impl From<CornerDirection> for EightDirection {
+    fn from(value: CornerDirection) -> Self {
+        Self::Corner(value)
     }
 }

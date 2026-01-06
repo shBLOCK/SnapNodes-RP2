@@ -8,6 +8,7 @@ extern crate alloc;
 mod direction;
 mod sand;
 mod slots;
+mod utils;
 
 use core::mem::MaybeUninit;
 use defmt::*;
