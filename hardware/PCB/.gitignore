@@ -1,0 +1,7 @@
+/**/*.bak
+/**/*-backups/
+/**/fp-info-cache
+/**/#*#
+/**/~*
+/**/production/
+/**/fabrication-toolkit-options.json
