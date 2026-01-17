@@ -10,7 +10,9 @@ mod sand;
 mod slots;
 mod utils;
 
+use core::fmt::Debug;
 use core::mem::MaybeUninit;
+use core::ops::Add;
 use defmt::*;
 use embassy_executor::Executor;
 use embassy_executor::Spawner;
@@ -42,10 +44,12 @@ use embedded_graphics::pixelcolor::{Rgb565, Rgb888};
 use embedded_graphics::prelude::{DrawTarget, Point, Primitive, RgbColor, Size, WebColors};
 use embedded_graphics::primitives::{PrimitiveStyle, Rectangle};
 use embedded_hal::digital::OutputPin;
+use fixed::types::{I16F16, I8F8};
 use lcd_async::options::ColorInversion;
 use lcd_async::raw_framebuf::RawFrameBuf;
 use nalgebra_glm as glm;
 use nalgebra_glm::{I16Vec3, Vec2, Vec3, vec2};
+use num_traits::FromPrimitive;
 
 #[global_allocator]
 static SRAM_HEAP: Heap = Heap::empty();
@@ -291,13 +295,114 @@ async fn main_task(spawner: Spawner, ps: Peripherals) -> ! {
 
 #[cortex_m_rt::entry]
 fn main() -> ! {
-    unsafe {
-        embassy_rp::rom_data::flash_select_xip_read_mode(3, 3);
-    }
+    // unsafe {
+    //     embassy_rp::rom_data::flash_select_xip_read_mode(3, 3);
+    // }
     let mut clock_config = embassy_rp::clocks::ClockConfig::system_freq(SYS_CLOCK_HZ).unwrap();
     // let clock_config = embassy_rp::clocks::ClockConfig::crystal(12_000_000);
     clock_config.core_voltage = embassy_rp::clocks::CoreVoltage::V1_30;
     let ps = embassy_rp::init(embassy_rp::config::Config::new(clock_config));
+
+    // { // tmp
+    //     fn bm<T: Debug>(text: &str, f: &impl Fn() -> T) {
+    //         let st = Instant::now();
+    //         let result = f();
+    //         info!("{} {:?}: {}t", text, Debug2Format(&result), (Instant::now() - st).as_ticks());
+    //     }
+    //
+    //     let n = 100_000_000;
+    //     bm(
+    //         "f32 add",
+    //         &|| {
+    //             let mut x = 0f32;
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x + 1.2);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "i32 add",
+    //         &|| {
+    //             let mut x = 0i32;
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x + 2);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "I16F16 add",
+    //         &|| {
+    //             let mut x = I16F16::from_f32(0.0).unwrap();
+    //             let a = I16F16::from_f32(1.5f32).unwrap();
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x + a);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "I8F8 add",
+    //         &|| {
+    //             let mut x = I8F8::from_f32(0.0).unwrap();
+    //             let a = I8F8::from_f32(1.5f32).unwrap();
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x + a);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "f32 div",
+    //         &|| {
+    //             let mut x = 0f32;
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x / 0.9);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "i32 div",
+    //         &|| {
+    //             let mut x = 1000000000i32;
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x / 2);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "I16F16 div",
+    //         &|| {
+    //             let mut x = I16F16::from_f32(0.0).unwrap();
+    //             let a = I16F16::from_f32(0.9f32).unwrap();
+    //             for _ in 0..n {
+    //                 x = x / core::hint::black_box(a);
+    //             }
+    //             x
+    //         }
+    //     );
+    //
+    //     bm(
+    //         "I8F8 div",
+    //         &|| {
+    //             let mut x = I8F8::from_f32(0.0).unwrap();
+    //             let a = I8F8::from_f32(0.9f32).unwrap();
+    //             for _ in 0..n {
+    //                 x = core::hint::black_box(x / a);
+    //             }
+    //             x
+    //         }
+    //     );
+    // }
 
     static EXECUTOR: StaticCell<Executor> = StaticCell::new();
     let executor = EXECUTOR.init(Executor::new());

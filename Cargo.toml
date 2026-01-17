@@ -8,6 +8,10 @@ members = [
 [workspace.package]
 edition = "2024"
 
+[profile.release]
+lto = true
+codegen-units = 1
+
 [patch.crates-io]
 embassy-time-driver = { path = "embassy/embassy-time-driver" }
 embassy-rp = { path = "embassy/embassy-rp" }
