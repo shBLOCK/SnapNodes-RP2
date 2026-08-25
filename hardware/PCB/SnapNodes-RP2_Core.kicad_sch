@@ -8049,7 +8049,7 @@
 		(uuid "f9875b82-bd72-42a1-836f-75742f0476d8")
 	)
 	(junction
-		(at 207.01 71.12)
+		(at 217.17 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "01173060-0bf6-4cf5-a007-31047f65d69c")
@@ -8061,7 +8061,7 @@
 		(uuid "02ab0f41-f6c1-47af-9714-14a39c11f024")
 	)
 	(junction
-		(at 261.62 71.12)
+		(at 271.78 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "036504ad-38ee-4a16-8882-40fc166ad050")
@@ -8079,7 +8079,13 @@
 		(uuid "05530107-4a36-4c37-895c-df16fc940391")
 	)
 	(junction
-		(at 207.01 53.34)
+		(at 234.95 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06086309-f2f0-4d2c-8fd9-56c6d339f4a6")
+	)
+	(junction
+		(at 217.17 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07224ca4-ea3a-4d0e-bc7a-51b06edf60d3")
@@ -8109,6 +8115,12 @@
 		(uuid "09b8c0ea-11e6-4292-9297-0d1fc07892b1")
 	)
 	(junction
+		(at 234.95 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ac0505a-6df6-40cf-ad9b-0e737600641b")
+	)
+	(junction
 		(at 115.57 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8127,12 +8139,6 @@
 		(uuid "1119ca5d-8314-4e5b-82be-d0f95eac658e")
 	)
 	(junction
-		(at 279.4 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "148d2cff-cbf0-4060-b7e9-2ac049f54da4")
-	)
-	(junction
 		(at 60.96 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8145,10 +8151,10 @@
 		(uuid "15c357e2-8f21-4062-afc9-2105495c1115")
 	)
 	(junction
-		(at 234.95 38.1)
+		(at 234.95 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1714eb1b-c5e1-4833-b741-c48ed848d475")
+		(uuid "15d77753-d5e7-4961-8dad-9c2d94426815")
 	)
 	(junction
 		(at 163.83 25.4)
@@ -8157,52 +8163,28 @@
 		(uuid "17ae86b9-5b13-47b3-8084-3b285a8fedc7")
 	)
 	(junction
-		(at 289.56 35.56)
+		(at 289.56 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18f0468c-c935-4a47-86b4-e933398c640d")
+		(uuid "1939726b-943e-44ef-8101-7ea2b5ee925d")
 	)
 	(junction
-		(at 279.4 35.56)
+		(at 289.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b42b8a0-a542-4be7-9904-921963bcfe78")
+		(uuid "1b299664-cafe-4a55-86b9-8ee4bbe444a8")
 	)
 	(junction
-		(at 207.01 73.66)
+		(at 217.17 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bb6be6c-d508-46da-8060-e3f0b0eab684")
-	)
-	(junction
-		(at 234.95 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cb0783e-0b62-4363-8a83-20ddf27d2417")
 	)
 	(junction
 		(at 44.45 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dc57576-5d27-485d-a700-4da50139c0cb")
-	)
-	(junction
-		(at 224.79 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e0beb2d-2af9-414d-be9c-15eecd2e4cb8")
-	)
-	(junction
-		(at 234.95 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e3d15c6-d389-4826-85f3-128a830c5056")
-	)
-	(junction
-		(at 234.95 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e7d4919-4142-4ca1-aed2-1a590820f342")
 	)
 	(junction
 		(at 58.42 95.25)
@@ -8217,13 +8199,7 @@
 		(uuid "1f638709-759e-488e-8819-2b9b4997db03")
 	)
 	(junction
-		(at 234.95 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "201fe886-18ca-44c4-886e-15707ccd227e")
-	)
-	(junction
-		(at 207.01 35.56)
+		(at 217.17 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20d2a39e-4352-4e18-9599-3a67caf234f5")
@@ -8233,18 +8209,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20e1025c-8d16-4bd6-9f74-9c947e3e9aca")
-	)
-	(junction
-		(at 224.79 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2880ceea-abe2-4009-a75f-ab8d94633d95")
-	)
-	(junction
-		(at 234.95 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bd84ac0-87b6-4bcd-8856-57fc9e38fb30")
 	)
 	(junction
 		(at 266.7 243.84)
@@ -8259,22 +8223,10 @@
 		(uuid "2d403395-8f5c-487d-b426-8a6ddc0c9928")
 	)
 	(junction
-		(at 289.56 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2feffec6-a420-479f-94d8-b4bc6fd4e8b0")
-	)
-	(junction
 		(at 163.83 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "329a6a8d-87b3-40ed-8495-3d3ce92904d6")
-	)
-	(junction
-		(at 289.56 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38b39f08-3b0e-4a11-b4aa-b7b7d817bb66")
 	)
 	(junction
 		(at 110.49 43.18)
@@ -8283,34 +8235,22 @@
 		(uuid "3ae57610-4991-42b9-85e9-0fbbe6da3266")
 	)
 	(junction
-		(at 207.01 50.8)
+		(at 217.17 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c74f0b3-347e-4fe3-b1fd-7480c28d2113")
 	)
 	(junction
-		(at 234.95 68.58)
+		(at 289.56 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f6fd5f6-ec12-4caa-8dda-cde7fecd3163")
-	)
-	(junction
-		(at 234.95 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4080687d-db61-47ec-b84c-2fdfa6f02b9b")
+		(uuid "4074ec55-01f5-4923-b5fc-b1384d2b5153")
 	)
 	(junction
 		(at 133.35 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40f29a11-bbcb-467b-bc5d-8f3fa939dad4")
-	)
-	(junction
-		(at 234.95 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4159ffe6-9ec8-4f36-bcb9-195d1d60de3e")
 	)
 	(junction
 		(at 171.45 30.48)
@@ -8329,30 +8269,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4780ba7b-59c5-4d19-a378-80b1849f1745")
-	)
-	(junction
-		(at 279.4 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47924cfd-211b-4799-8770-a79baa0f67d8")
-	)
-	(junction
-		(at 279.4 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4798ce2c-0062-44b8-b9b8-e3cb952db1d3")
-	)
-	(junction
-		(at 289.56 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4910c1d8-030c-4383-a690-709a1d5f788a")
-	)
-	(junction
-		(at 289.56 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4aefde6e-3178-4f19-85f1-751277b2005c")
 	)
 	(junction
 		(at 233.68 156.21)
@@ -8385,46 +8301,16 @@
 		(uuid "5006950b-8751-4677-ba91-60ec6a62b8ab")
 	)
 	(junction
-		(at 289.56 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50159d8a-2425-4b4c-a74b-f60b688430c5")
-	)
-	(junction
-		(at 234.95 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5200d254-4d97-4635-bdcd-94d216fad31b")
-	)
-	(junction
-		(at 289.56 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "529c6b53-2ba9-4a95-a2e3-c0461cb18538")
-	)
-	(junction
 		(at 102.87 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "541a0132-9e5a-4e2b-ae20-5f51921ac64c")
 	)
 	(junction
-		(at 207.01 33.02)
+		(at 217.17 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5560ba4c-b34e-4cec-a5fe-433ad43a19dd")
-	)
-	(junction
-		(at 279.4 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56c7c4db-7548-451e-808c-c806d439b440")
-	)
-	(junction
-		(at 234.95 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58310177-d87c-4258-bfc6-57f329af5d28")
 	)
 	(junction
 		(at 74.93 259.08)
@@ -8439,10 +8325,16 @@
 		(uuid "5dc65317-edaa-4f53-aa88-7fab6f6ad05e")
 	)
 	(junction
-		(at 207.01 91.44)
+		(at 217.17 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60d8d501-e021-4e18-acc5-89e4c004fc6b")
+	)
+	(junction
+		(at 289.56 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61c1ec58-f551-43ee-bb13-836ffff88782")
 	)
 	(junction
 		(at 275.59 243.84)
@@ -8451,22 +8343,10 @@
 		(uuid "640828ae-36b1-4e0d-a08d-d5e5236ce324")
 	)
 	(junction
-		(at 234.95 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6470aaf0-2cd8-429c-8fb4-5097a93becff")
-	)
-	(junction
 		(at 34.29 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66e91538-8aca-4a09-9b1f-7fe0e7c2956d")
-	)
-	(junction
-		(at 234.95 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67959c2a-4b8c-4a0f-b534-e7fff3160674")
 	)
 	(junction
 		(at 156.21 25.4)
@@ -8475,40 +8355,16 @@
 		(uuid "69ba06da-91fe-407d-82a6-0edd29108bd6")
 	)
 	(junction
-		(at 279.4 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a8f7679-cd70-43f5-9b42-3858081622fd")
-	)
-	(junction
 		(at 81.28 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b8da901-73b6-4dc7-9f06-7a3ea295d10a")
 	)
 	(junction
-		(at 224.79 88.9)
+		(at 234.95 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d39ab1f-5295-45b4-8e15-94c0ceb2ee4f")
-	)
-	(junction
-		(at 224.79 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d821c4c-8042-4649-9dae-0a6facf82ae5")
-	)
-	(junction
-		(at 224.79 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dcd232e-7a1a-4014-8f70-986e40e247f6")
-	)
-	(junction
-		(at 289.56 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f7c82a7-9127-4916-98af-b5abb609698f")
+		(uuid "700ce8a8-8d62-4d4a-890d-3b59bccfa1cd")
 	)
 	(junction
 		(at 130.81 35.56)
@@ -8523,16 +8379,16 @@
 		(uuid "73e45182-0459-4aef-9b1c-d8667a80802a")
 	)
 	(junction
-		(at 289.56 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76b2914a-acb9-4b6e-ae82-24836ce872b4")
-	)
-	(junction
 		(at 83.82 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78a28927-d764-4f99-a3c0-3a6db3247e61")
+	)
+	(junction
+		(at 289.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa2354c-a09d-4cc6-ba14-f6bd4d096dc9")
 	)
 	(junction
 		(at 64.77 38.1)
@@ -8559,22 +8415,16 @@
 		(uuid "858fd298-e465-409a-a042-1e50918153cf")
 	)
 	(junction
-		(at 261.62 33.02)
+		(at 271.78 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86963907-7879-4096-8606-603acbd3a685")
 	)
 	(junction
-		(at 224.79 91.44)
+		(at 289.56 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e22eb83-7e4e-4b97-9aee-d7475c061298")
-	)
-	(junction
-		(at 279.4 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8eb08a80-a8f9-4760-8b91-28270903967e")
+		(uuid "88e2233f-7a4d-4238-a284-5c25f56abd58")
 	)
 	(junction
 		(at 44.45 57.15)
@@ -8589,13 +8439,7 @@
 		(uuid "8f6efb1f-36e4-4a4d-8f9b-1a9cc9a371e0")
 	)
 	(junction
-		(at 289.56 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "905c409d-ee63-4760-a319-c02e56d844e3")
-	)
-	(junction
-		(at 261.62 88.9)
+		(at 271.78 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90ae8dc4-f830-41b4-b6c0-49af3b81df0f")
@@ -8607,46 +8451,10 @@
 		(uuid "928a65a0-b754-45b7-b082-72c954811bc8")
 	)
 	(junction
-		(at 279.4 86.36)
+		(at 234.95 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95922385-ef5b-4583-896a-1d54d1d6cee1")
-	)
-	(junction
-		(at 289.56 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98dbd9d7-817d-4a56-895b-bd159a117121")
-	)
-	(junction
-		(at 234.95 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99214db0-1538-4c45-9958-c34675415d00")
-	)
-	(junction
-		(at 224.79 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "994733b5-27dc-47c3-9535-9a3f8512e0d5")
-	)
-	(junction
-		(at 289.56 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aa372de-04bc-4e94-8bcf-8766dec41bb8")
-	)
-	(junction
-		(at 279.4 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ad38801-2ca7-4ede-a6c6-0f3c9122beda")
-	)
-	(junction
-		(at 279.4 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cc05279-b2c8-4e9d-a1da-0de0885406ea")
+		(uuid "9964f562-b87e-41f8-b25a-fcb47c9f58a2")
 	)
 	(junction
 		(at 113.03 43.18)
@@ -8655,28 +8463,16 @@
 		(uuid "9cfbcb7c-cba2-4574-af9d-48793a7d9a57")
 	)
 	(junction
-		(at 261.62 53.34)
+		(at 271.78 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3c6e13-d3e1-4579-95a9-711a2875474a")
 	)
 	(junction
-		(at 289.56 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fb00bd1-0ef9-4ad6-90e3-0e5b72c57e3f")
-	)
-	(junction
-		(at 261.62 73.66)
+		(at 271.78 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0bb8303-0fab-41a6-9ffa-b0bf784b0166")
-	)
-	(junction
-		(at 289.56 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4574476-552c-4b3c-97e4-0a8bf10af682")
 	)
 	(junction
 		(at 226.06 246.38)
@@ -8685,16 +8481,16 @@
 		(uuid "a5159ee8-710f-4a4f-9358-5635af6c4b1e")
 	)
 	(junction
+		(at 234.95 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a54130ae-c238-400f-a24a-3b60b94c6a92")
+	)
+	(junction
 		(at 45.72 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f47037-be79-4f6f-92bb-ec06183c6475")
-	)
-	(junction
-		(at 289.56 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a891ece0-7152-4036-b64a-0871c82454ec")
 	)
 	(junction
 		(at 118.11 30.48)
@@ -8703,22 +8499,22 @@
 		(uuid "a8a019d7-9e49-436c-aa6b-04ea7ad1147b")
 	)
 	(junction
-		(at 279.4 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adaa0ce2-c87d-4a19-aa1a-e0886d35e3d4")
-	)
-	(junction
 		(at 240.03 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aee03d83-2738-4f74-9790-f163a50eef3e")
 	)
 	(junction
-		(at 289.56 30.48)
+		(at 234.95 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3269bd0-76f1-464f-9a60-e7ddc54a1071")
+		(uuid "b0d564d8-64cd-4d98-b397-cc3704fd4b81")
+	)
+	(junction
+		(at 289.56 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2bab0bd-41f1-405d-a1fa-aba46c2221f2")
 	)
 	(junction
 		(at 133.35 30.48)
@@ -8739,28 +8535,28 @@
 		(uuid "b7653938-bc63-40a0-a167-d1d49c764e78")
 	)
 	(junction
-		(at 224.79 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8303967-f0fc-4a09-b2fa-ccee25f238da")
-	)
-	(junction
-		(at 224.79 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba109e5f-bd38-47ce-b1fe-ab961285d34f")
-	)
-	(junction
 		(at 67.31 256.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb39352a-c7dc-4979-a11b-691e681f81dc")
 	)
 	(junction
-		(at 289.56 38.1)
+		(at 234.95 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bf1a5888-aba9-4bac-9c5e-9a596c209da7")
+		(uuid "c172e85e-f854-45c9-b840-a1de82e9ac7b")
+	)
+	(junction
+		(at 289.56 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2e6c9ae-eba1-43c6-9d19-45c1a35b98db")
+	)
+	(junction
+		(at 289.56 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37c3dc1-7043-4b28-b808-a82b182f729a")
 	)
 	(junction
 		(at 87.63 251.46)
@@ -8799,52 +8595,28 @@
 		(uuid "cfdaab01-a83c-42c2-8576-514bf8737594")
 	)
 	(junction
-		(at 234.95 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2626a61-4697-408d-a6e6-ecc0033dc618")
-	)
-	(junction
 		(at 63.5 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d413c2f7-8904-4ea7-a9e7-9e172d0e6654")
 	)
 	(junction
-		(at 224.79 33.02)
+		(at 289.56 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d92862d9-ff9f-4e56-a2b4-c2c9f17d9ff4")
+		(uuid "d4339cba-5c18-44bf-9356-03bf384dcf57")
 	)
 	(junction
-		(at 234.95 50.8)
+		(at 234.95 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9934af4-59c1-4369-bccf-23678da26b67")
+		(uuid "d5f66377-e113-4b36-9365-e888264fa196")
 	)
 	(junction
-		(at 234.95 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da848b20-078b-4161-98ec-31d9fa5fc591")
-	)
-	(junction
-		(at 261.62 91.44)
+		(at 271.78 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dab46922-37f6-463b-8efb-265964864792")
-	)
-	(junction
-		(at 224.79 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db79fcba-e1b3-4d9d-a002-833fc17329d9")
-	)
-	(junction
-		(at 279.4 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd72a70c-355c-4085-88cc-9868b61895c5")
 	)
 	(junction
 		(at 110.49 25.4)
@@ -8853,28 +8625,16 @@
 		(uuid "de2a869c-dc89-441f-9c31-d546fc2ab245")
 	)
 	(junction
-		(at 234.95 91.44)
+		(at 234.95 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1cbcbfb-3d82-44e7-ae8b-340669456ba2")
+		(uuid "e237ea73-c4fe-40e2-b573-c15d2e2f30b8")
 	)
 	(junction
-		(at 224.79 35.56)
+		(at 289.56 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2dc371a-79e0-4528-a13f-9ce1fd1cdea0")
-	)
-	(junction
-		(at 234.95 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3a4ee50-d70e-420a-a535-58ef913c34b0")
-	)
-	(junction
-		(at 289.56 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e41edb26-69a4-4ae7-a3c4-971727b1a2fc")
+		(uuid "e3f1c582-4d35-4e77-a733-4c9545d70c80")
 	)
 	(junction
 		(at 57.15 72.39)
@@ -8883,7 +8643,7 @@
 		(uuid "e5a3a7b4-5233-494b-8c98-3e9d51e8ec01")
 	)
 	(junction
-		(at 261.62 35.56)
+		(at 271.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7cee335-c4a8-48b9-b543-9920c7c5e285")
@@ -8895,22 +8655,10 @@
 		(uuid "e9ea579d-df42-43ab-a1f2-0540f4305b0a")
 	)
 	(junction
-		(at 261.62 50.8)
+		(at 271.78 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7be4cb-9f0e-4a15-8922-29d67487b557")
-	)
-	(junction
-		(at 289.56 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f07bb788-8cb9-42b1-8591-8ef71d75f781")
-	)
-	(junction
-		(at 234.95 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1f2eab2-8b64-4bfa-9298-196bebf0fdbc")
 	)
 	(junction
 		(at 34.29 48.26)
@@ -8919,16 +8667,16 @@
 		(uuid "f38b4ac4-c0b3-42db-b7d2-789abcc6a08d")
 	)
 	(junction
-		(at 289.56 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f79dea7d-6e08-4031-a223-665c1a5b0642")
-	)
-	(junction
 		(at 67.31 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7bade5b-7e9f-45fc-9e2b-3a5968265092")
+	)
+	(junction
+		(at 234.95 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7e60971-2aae-424e-bf11-98d262c9f5d0")
 	)
 	(junction
 		(at 156.21 30.48)
@@ -8937,13 +8685,25 @@
 		(uuid "f84acaf7-1d97-42c2-8c47-7ff4625e3b56")
 	)
 	(junction
+		(at 234.95 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ef89a6-9cfc-4b6f-aa29-967a000eddaa")
+	)
+	(junction
 		(at 140.97 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9c0547f-1a12-4fce-bd7a-4551252186b2")
 	)
 	(junction
-		(at 207.01 88.9)
+		(at 289.56 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee77b10-c5c2-4f88-8a85-d965591c40f1")
+	)
+	(junction
+		(at 217.17 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffbff731-660a-40f0-8dfb-65a92a7f9317")
@@ -9414,7 +9174,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 48.26) (xy 224.79 48.26)
+			(xy 224.79 48.26) (xy 234.95 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9504,7 +9264,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 91.44) (xy 224.79 91.44)
+			(xy 224.79 91.44) (xy 234.95 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9564,7 +9324,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 68.58) (xy 279.4 68.58)
+			(xy 279.4 68.58) (xy 289.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9614,16 +9374,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 83.82) (xy 289.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148f6916-f7d4-4c0e-b041-adb8769bbf74")
-	)
-	(wire
-		(pts
 			(xy 72.39 54.61) (xy 72.39 48.26)
 		)
 		(stroke
@@ -9654,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 224.79 88.9)
+			(xy 224.79 88.9) (xy 234.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9674,7 +9424,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 86.36) (xy 207.01 88.9)
+			(xy 217.17 86.36) (xy 217.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9684,43 +9434,13 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 53.34) (xy 289.56 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b122fc-6978-4deb-b5af-a39ddf918ed3")
-	)
-	(wire
-		(pts
-			(xy 214.63 73.66) (xy 224.79 73.66)
+			(xy 224.79 73.66) (xy 234.95 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18b6ecef-a01c-4629-89e0-948d28f2d0bb")
-	)
-	(wire
-		(pts
-			(xy 224.79 55.88) (xy 234.95 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b0238e-23ec-456a-9cd6-4f28c86addf9")
-	)
-	(wire
-		(pts
-			(xy 224.79 93.98) (xy 234.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b997116-e2f7-47ba-bfb2-495572644c76")
 	)
 	(bus
 		(pts
@@ -9804,16 +9524,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22fad64f-488a-425c-a209-df6db403df83")
-	)
-	(wire
-		(pts
 			(xy 111.76 233.68) (xy 133.35 233.68)
 		)
 		(stroke
@@ -9854,7 +9564,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 50.8) (xy 207.01 53.34)
+			(xy 217.17 50.8) (xy 217.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9994,7 +9704,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 71.12) (xy 261.62 73.66)
+			(xy 271.78 71.12) (xy 271.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -10041,16 +9751,6 @@
 			(type default)
 		)
 		(uuid "3567716f-58dc-44fc-a6b5-a61c8f44eed4")
-	)
-	(wire
-		(pts
-			(xy 224.79 50.8) (xy 234.95 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375f1b05-b02f-4c39-b503-e03be0a96f6b")
 	)
 	(wire
 		(pts
@@ -10104,16 +9804,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 76.2) (xy 234.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e31b4fb-ffde-4992-a57f-048815bea35b")
-	)
-	(wire
-		(pts
 			(xy 133.35 30.48) (xy 140.97 30.48)
 		)
 		(stroke
@@ -10121,16 +9811,6 @@
 			(type default)
 		)
 		(uuid "3f56e3d8-cd11-445d-b786-f7885af6401a")
-	)
-	(wire
-		(pts
-			(xy 269.24 33.02) (xy 279.4 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f8a5f0d-62bd-4773-b432-851ac75cf354")
 	)
 	(wire
 		(pts
@@ -10161,16 +9841,6 @@
 			(type default)
 		)
 		(uuid "432e7116-ae14-4b31-955d-af54c064b4f2")
-	)
-	(wire
-		(pts
-			(xy 279.4 68.58) (xy 289.56 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "448d78b9-6efe-4adc-99b6-fff5e791ca1f")
 	)
 	(wire
 		(pts
@@ -10314,16 +9984,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 45.72) (xy 234.95 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f72ee4e-c82b-4baa-a031-cc4499865995")
-	)
-	(wire
-		(pts
 			(xy 156.21 30.48) (xy 163.83 30.48)
 		)
 		(stroke
@@ -10341,26 +10001,6 @@
 			(type default)
 		)
 		(uuid "514fc9a0-8ca0-4970-a8ba-2148be52593c")
-	)
-	(wire
-		(pts
-			(xy 224.79 66.04) (xy 234.95 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51f8eb35-1c03-4135-9a96-7c6bd0271bd2")
-	)
-	(wire
-		(pts
-			(xy 269.24 71.12) (xy 279.4 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52e38d04-3c62-400c-8aae-32e69359a1b5")
 	)
 	(bus
 		(pts
@@ -10384,16 +10024,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 73.66) (xy 234.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54057f25-269e-4351-a3b5-66ef40a5a08a")
-	)
-	(wire
-		(pts
 			(xy 243.84 35.56) (xy 250.19 35.56)
 		)
 		(stroke
@@ -10411,16 +10041,6 @@
 			(type default)
 		)
 		(uuid "54ff360f-2750-4693-a5e6-3448b350d066")
-	)
-	(wire
-		(pts
-			(xy 269.24 88.9) (xy 279.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d59618-4d86-4653-86ff-fa60ba4336bf")
 	)
 	(bus
 		(pts
@@ -10472,16 +10092,6 @@
 		)
 		(uuid "5bc25f99-31e1-4b3f-81ae-23c401d3c6a1")
 	)
-	(wire
-		(pts
-			(xy 224.79 27.94) (xy 234.95 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6e19b5-df96-4580-9e50-5adafe21ae62")
-	)
 	(bus
 		(pts
 			(xy 167.64 83.82) (xy 167.64 86.36)
@@ -10501,16 +10111,6 @@
 			(type default)
 		)
 		(uuid "5d99947a-7f8e-478d-8944-bbdb7b846182")
-	)
-	(wire
-		(pts
-			(xy 269.24 86.36) (xy 279.4 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe73299-ad55-4fc7-bc61-989d77691d99")
 	)
 	(wire
 		(pts
@@ -10544,16 +10144,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 234.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60abc337-68b8-49ad-8c1e-c5862a0e8927")
-	)
-	(wire
-		(pts
 			(xy 148.59 30.48) (xy 156.21 30.48)
 		)
 		(stroke
@@ -10571,16 +10161,6 @@
 			(type default)
 		)
 		(uuid "62aeb9a8-2313-43aa-b6a5-b61a0b508319")
-	)
-	(wire
-		(pts
-			(xy 224.79 83.82) (xy 234.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62bae5f4-1f06-4b13-bab0-88725e9d5fcb")
 	)
 	(wire
 		(pts
@@ -10644,16 +10224,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 73.66) (xy 279.4 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68bf7c1b-9ef7-44c2-bd11-3f4694a3f32e")
-	)
-	(wire
-		(pts
 			(xy 66.04 124.46) (xy 71.12 124.46)
 		)
 		(stroke
@@ -10684,16 +10254,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 76.2) (xy 289.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bb912a8-67f0-4d83-baaa-e68c52fb6d4a")
-	)
-	(wire
-		(pts
 			(xy 74.93 259.08) (xy 87.63 259.08)
 		)
 		(stroke
@@ -10714,7 +10274,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 68.58) (xy 224.79 68.58)
+			(xy 224.79 68.58) (xy 234.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10724,7 +10284,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 30.48) (xy 207.01 33.02)
+			(xy 217.17 30.48) (xy 217.17 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10761,16 +10321,6 @@
 			(type default)
 		)
 		(uuid "6f35473c-0c82-4de5-a058-ce7bb19e2ecb")
-	)
-	(wire
-		(pts
-			(xy 224.79 53.34) (xy 234.95 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70aed1bd-f7c4-4ff8-901f-7dc036a96455")
 	)
 	(bus
 		(pts
@@ -10814,26 +10364,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 35.56) (xy 289.56 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72dff705-4514-407f-869b-1b2cbf688952")
-	)
-	(wire
-		(pts
-			(xy 279.4 66.04) (xy 289.56 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72e73aaa-1bf8-472b-a3b4-4058469054cd")
-	)
-	(wire
-		(pts
 			(xy 71.12 102.87) (xy 71.12 101.6)
 		)
 		(stroke
@@ -10844,17 +10374,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 30.48) (xy 279.4 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738d3218-3a3d-4695-a0d7-0b0a72db802b")
-	)
-	(wire
-		(pts
-			(xy 214.63 86.36) (xy 224.79 86.36)
+			(xy 224.79 86.36) (xy 234.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10932,16 +10452,6 @@
 		)
 		(uuid "7c2bd9a1-b44b-4503-9a7d-fdbc58716295")
 	)
-	(wire
-		(pts
-			(xy 224.79 68.58) (xy 234.95 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ddce5b8-49dc-43bd-bd08-1d4121a010df")
-	)
 	(bus
 		(pts
 			(xy 167.64 68.58) (xy 167.64 71.12)
@@ -10964,7 +10474,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 53.34) (xy 279.4 53.34)
+			(xy 279.4 53.34) (xy 289.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11004,7 +10514,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 48.26) (xy 261.62 50.8)
+			(xy 271.78 48.26) (xy 271.78 50.8)
 		)
 		(stroke
 			(width 0)
@@ -11044,7 +10554,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 33.02) (xy 261.62 35.56)
+			(xy 271.78 33.02) (xy 271.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -11104,7 +10614,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 68.58) (xy 207.01 71.12)
+			(xy 217.17 68.58) (xy 217.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11124,7 +10634,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 53.34) (xy 224.79 53.34)
+			(xy 224.79 53.34) (xy 234.95 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11144,16 +10654,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 48.26) (xy 234.95 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "970c2a97-c228-41fd-a220-7726cd857dc5")
-	)
-	(wire
-		(pts
 			(xy 58.42 102.87) (xy 64.77 102.87)
 		)
 		(stroke
@@ -11164,7 +10664,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 224.79 71.12)
+			(xy 224.79 71.12) (xy 234.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11214,7 +10714,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 86.36) (xy 261.62 88.9)
+			(xy 271.78 86.36) (xy 271.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11224,7 +10724,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 33.02) (xy 224.79 33.02)
+			(xy 224.79 33.02) (xy 234.95 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11241,16 +10741,6 @@
 			(type default)
 		)
 		(uuid "9d8421b2-2672-48b4-9374-0e36ad75accd")
-	)
-	(wire
-		(pts
-			(xy 279.4 55.88) (xy 289.56 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc4675a-dfc5-4275-9a4c-68beaa8516a6")
 	)
 	(wire
 		(pts
@@ -11321,16 +10811,6 @@
 			(type default)
 		)
 		(uuid "a7849288-3172-4bd2-a67c-009b94720288")
-	)
-	(wire
-		(pts
-			(xy 279.4 27.94) (xy 289.56 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ed0d52-d135-4b6a-8a86-a02203077bc2")
 	)
 	(wire
 		(pts
@@ -11482,16 +10962,6 @@
 		)
 		(uuid "b24a6404-e40c-4e1d-9aca-b2d47b2348ee")
 	)
-	(wire
-		(pts
-			(xy 279.4 38.1) (xy 289.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2985381-4308-4eb1-9e79-f6d79ada10af")
-	)
 	(bus
 		(pts
 			(xy 252.73 71.12) (xy 252.73 83.82)
@@ -11504,16 +10974,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 91.44) (xy 234.95 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b338187a-0d8e-498d-a637-109b01160ac7")
-	)
-	(wire
-		(pts
 			(xy 71.12 128.27) (xy 72.39 128.27)
 		)
 		(stroke
@@ -11521,16 +10981,6 @@
 			(type default)
 		)
 		(uuid "b3a06322-d97c-468f-9d21-8a046bc7db59")
-	)
-	(wire
-		(pts
-			(xy 224.79 30.48) (xy 234.95 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c52e25-993a-46a5-9c35-5104244e9302")
 	)
 	(wire
 		(pts
@@ -11724,7 +11174,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 207.01 50.8)
+			(xy 217.17 48.26) (xy 217.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -11751,16 +11201,6 @@
 			(type default)
 		)
 		(uuid "c4514bdf-7c57-4123-a3a7-d993ab219dae")
-	)
-	(wire
-		(pts
-			(xy 269.24 48.26) (xy 279.4 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4ee638a-67a0-40b8-8d62-69506e4536dd")
 	)
 	(wire
 		(pts
@@ -11794,7 +11234,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 30.48) (xy 224.79 30.48)
+			(xy 224.79 30.48) (xy 234.95 30.48)
 		)
 		(stroke
 			(width 0)
@@ -11834,7 +11274,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 50.8) (xy 261.62 53.34)
+			(xy 271.78 50.8) (xy 271.78 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11874,17 +11314,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 45.72) (xy 289.56 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6e492d-3f78-4de7-b013-23d978b32428")
-	)
-	(wire
-		(pts
-			(xy 214.63 35.56) (xy 224.79 35.56)
+			(xy 224.79 35.56) (xy 234.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -11901,16 +11331,6 @@
 			(type default)
 		)
 		(uuid "cacaf97a-fed9-4533-b16a-45244aa00cff")
-	)
-	(wire
-		(pts
-			(xy 279.4 93.98) (xy 289.56 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe58eae-de5b-438e-906d-9ac390cab309")
 	)
 	(wire
 		(pts
@@ -11934,17 +11354,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 91.44) (xy 289.56 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce106b3e-32d7-4991-8c3d-4840b93b8e67")
-	)
-	(wire
-		(pts
-			(xy 261.62 88.9) (xy 261.62 91.44)
+			(xy 271.78 88.9) (xy 271.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11964,7 +11374,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 35.56) (xy 279.4 35.56)
+			(xy 279.4 35.56) (xy 289.56 35.56)
 		)
 		(stroke
 			(width 0)
@@ -11994,7 +11404,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 91.44) (xy 279.4 91.44)
+			(xy 279.4 91.44) (xy 289.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -12064,7 +11474,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 207.01 91.44)
+			(xy 217.17 88.9) (xy 217.17 91.44)
 		)
 		(stroke
 			(width 0)
@@ -12114,33 +11524,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 71.12) (xy 207.01 73.66)
+			(xy 217.17 71.12) (xy 217.17 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc2b4f15-c88e-4d9b-a3c2-c00b10e29ba7")
-	)
-	(wire
-		(pts
-			(xy 269.24 50.8) (xy 279.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4974ea-34e3-4883-9b99-dccbd18a5498")
-	)
-	(wire
-		(pts
-			(xy 224.79 35.56) (xy 234.95 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd87b5ed-a03e-40e6-b243-2d4efef24f8f")
 	)
 	(wire
 		(pts
@@ -12161,16 +11551,6 @@
 			(type default)
 		)
 		(uuid "df219f66-2d19-46f4-9648-3bdb06697533")
-	)
-	(wire
-		(pts
-			(xy 224.79 38.1) (xy 234.95 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8635fb-e308-46eb-96e8-1370905f1a64")
 	)
 	(wire
 		(pts
@@ -12214,7 +11594,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 33.02) (xy 207.01 35.56)
+			(xy 217.17 33.02) (xy 217.17 35.56)
 		)
 		(stroke
 			(width 0)
@@ -12274,7 +11654,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 68.58) (xy 261.62 71.12)
+			(xy 271.78 68.58) (xy 271.78 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12294,7 +11674,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 30.48) (xy 261.62 33.02)
+			(xy 271.78 30.48) (xy 271.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12304,7 +11684,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 50.8) (xy 224.79 50.8)
+			(xy 224.79 50.8) (xy 234.95 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12464,16 +11844,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 33.02) (xy 234.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4474f5-ddca-4d3d-9926-41e81328ae23")
-	)
-	(wire
-		(pts
 			(xy 243.84 30.48) (xy 250.19 30.48)
 		)
 		(stroke
@@ -12481,16 +11851,6 @@
 			(type default)
 		)
 		(uuid "fe9bd8a2-0300-40db-9e1b-58094780543f")
-	)
-	(wire
-		(pts
-			(xy 224.79 88.9) (xy 234.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fece5774-5528-408e-87a8-e987fc934425")
 	)
 	(wire
 		(pts
@@ -14343,108 +13703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 219.71 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "068f71fd-e371-4815-a87e-b55d90e07808")
-		(property "Reference" "J13"
-			(at 218.186 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Male_Fallback"
-			(at 217.17 31.7501 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinHeader_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C492413.html"
-			(at 219.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "218664ae-1262-465a-9dc8-e97feda75956")
-		)
-		(pin "3"
-			(uuid "db71faaa-64ee-4d43-af0c-a18e6c1f5a90")
-		)
-		(pin "5"
-			(uuid "42b83b35-756b-475d-bb0a-54ffb2122669")
-		)
-		(pin "4"
-			(uuid "c637e5e0-fbc7-4d97-8acf-7d23ae7594a8")
-		)
-		(pin "2"
-			(uuid "e9ac4747-da4c-4c24-8395-d6df2cc8c020")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 34.29 48.26 0)
 		(unit 1)
@@ -14594,109 +13852,6 @@
 			(project "SnapNodes-RP2_Core"
 				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 219.71 50.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08f0e684-5535-4bcd-bb70-bebdc6fc7215")
-		(property "Reference" "J12"
-			(at 218.186 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Female_Fallback"
-			(at 217.17 52.0699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinSocket_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 219.71 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C35167.html"
-			(at 219.71 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c06e49e6-1785-4b7a-aa4f-5dc91393c2c3")
-		)
-		(pin "3"
-			(uuid "53a29e0d-cdf2-4649-b1fb-df398040d3f6")
-		)
-		(pin "5"
-			(uuid "d878cb84-6827-49ea-bded-f28f0bf915aa")
-		)
-		(pin "4"
-			(uuid "759e357d-ccd3-4e8d-bab6-bf4d7b0c3bec")
-		)
-		(pin "2"
-			(uuid "f3a13b48-e260-436e-94a4-767713a5f4e2")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -15041,109 +14196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 274.32 50.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c577d45-aff3-44d0-9779-04011e603c51")
-		(property "Reference" "J16"
-			(at 272.796 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Female_Fallback"
-			(at 271.78 52.0699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinSocket_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 274.32 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C35167.html"
-			(at 274.32 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c55a72af-e288-440c-82ad-b8416d367452")
-		)
-		(pin "3"
-			(uuid "9e555d0c-51ae-40d5-8278-cdcb3c2d6364")
-		)
-		(pin "5"
-			(uuid "434c842e-c072-428f-ae56-affa2ce37ab8")
-		)
-		(pin "4"
-			(uuid "c05b9b47-965e-4c04-a33a-4ac83c7ff649")
-		)
-		(pin "2"
-			(uuid "1bcd6650-01d9-4f68-a095-2b2f32f9ede3")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 60.96 48.26 0)
 		(unit 1)
@@ -15380,7 +14432,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 50.8 0)
+		(at 275.59 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15391,7 +14443,7 @@
 		(dnp no)
 		(uuid "0f4eca8a-a587-4b29-9c5d-ed64cfd702a1")
 		(property "Reference" "D22"
-			(at 267.97 49.784 0)
+			(at 278.13 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15401,7 +14453,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 48.514 0)
+			(at 275.59 48.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +14464,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 55.245 0)
+			(at 275.59 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15423,7 +14475,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 50.8 0)
+			(at 275.59 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15434,7 +14486,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 50.8 0)
+			(at 275.59 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15445,7 +14497,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 50.8 0)
+			(at 275.59 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16331,7 +15383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 73.66 0)
+		(at 271.78 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16341,7 +15393,7 @@
 		(dnp no)
 		(uuid "1b9ca0ed-7ff5-4e37-8d01-4c1b0c630721")
 		(property "Reference" "#PWR05"
-			(at 261.62 80.01 0)
+			(at 271.78 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16352,7 +15404,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 261.62 77.216 0)
+			(at 271.78 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16363,7 +15415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 73.66 0)
+			(at 271.78 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16374,7 +15426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 73.66 0)
+			(at 271.78 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16385,7 +15437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 73.66 0)
+			(at 271.78 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16730,7 +15782,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 48.26 0)
+		(at 220.98 48.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16741,7 +15793,7 @@
 		(dnp no)
 		(uuid "23c13024-cd5c-4faa-b165-57b3b31a25d7")
 		(property "Reference" "D9"
-			(at 213.36 47.244 0)
+			(at 223.52 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16751,7 +15803,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 45.974 0)
+			(at 220.98 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16762,7 +15814,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 52.705 0)
+			(at 220.98 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16773,7 +15825,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 48.26 0)
+			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16784,7 +15836,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 48.26 0)
+			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16795,7 +15847,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 48.26 0)
+			(at 220.98 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17404,7 +16456,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 35.56 0)
+		(at 220.98 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17415,7 +16467,7 @@
 		(dnp no)
 		(uuid "300f9cc3-1413-4a57-a1d4-bfad4527ee42")
 		(property "Reference" "D8"
-			(at 213.36 34.544 0)
+			(at 223.52 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17425,7 +16477,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 33.274 0)
+			(at 220.98 33.274 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17436,7 +16488,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 40.005 0)
+			(at 220.98 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17447,7 +16499,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 35.56 0)
+			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17458,7 +16510,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 35.56 0)
+			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17469,7 +16521,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 35.56 0)
+			(at 220.98 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17496,7 +16548,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 35.56 0)
+		(at 275.59 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17507,7 +16559,7 @@
 		(dnp no)
 		(uuid "315733d0-bc7d-444f-8f8e-7b58ad81d1fe")
 		(property "Reference" "D20"
-			(at 267.97 34.544 0)
+			(at 278.13 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17517,7 +16569,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 33.274 0)
+			(at 275.59 33.274 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17528,7 +16580,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 40.005 0)
+			(at 275.59 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17539,7 +16591,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 35.56 0)
+			(at 275.59 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17550,7 +16602,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 35.56 0)
+			(at 275.59 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17561,7 +16613,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 35.56 0)
+			(at 275.59 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18713,7 +17765,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 68.58 0)
+		(at 275.59 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18724,7 +17776,7 @@
 		(dnp no)
 		(uuid "41f15979-5cea-409a-9bdf-693939f9be44")
 		(property "Reference" "D24"
-			(at 267.97 67.564 0)
+			(at 278.13 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18734,7 +17786,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 66.294 0)
+			(at 275.59 66.294 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18745,7 +17797,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 73.025 0)
+			(at 275.59 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18756,7 +17808,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 68.58 0)
+			(at 275.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18767,7 +17819,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 68.58 0)
+			(at 275.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18778,7 +17830,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 68.58 0)
+			(at 275.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19810,108 +18862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 219.71 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f09b0e2-a7d8-4b37-a288-51f5310796de")
-		(property "Reference" "J15"
-			(at 218.186 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Male_Fallback"
-			(at 217.17 69.8501 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinHeader_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 219.71 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C492413.html"
-			(at 219.71 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc6980ea-c1d2-4ecd-bcb0-dcf616c28ef5")
-		)
-		(pin "3"
-			(uuid "09ba9f9b-0baf-455a-b36e-fd5d839b853f")
-		)
-		(pin "5"
-			(uuid "dd32bf77-e066-4370-8dc2-34892f57ec96")
-		)
-		(pin "4"
-			(uuid "37d5417d-6e83-4d9b-a1f3-3b440b2fda73")
-		)
-		(pin "2"
-			(uuid "df60c4eb-73ca-4338-933c-cb8e68e2d68c")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 313.69 207.01 0)
 		(unit 1)
@@ -19990,7 +18940,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 88.9 0)
+		(at 275.59 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20001,7 +18951,7 @@
 		(dnp no)
 		(uuid "518fb2e3-eca1-4129-94df-414c62b8916d")
 		(property "Reference" "D28"
-			(at 267.97 87.884 0)
+			(at 278.13 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20011,7 +18961,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 86.614 0)
+			(at 275.59 86.614 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20022,7 +18972,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 93.345 0)
+			(at 275.59 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20033,7 +18983,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 88.9 0)
+			(at 275.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20044,7 +18994,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 88.9 0)
+			(at 275.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20055,7 +19005,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 88.9 0)
+			(at 275.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20082,7 +19032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 73.66 0)
+		(at 217.17 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20092,7 +19042,7 @@
 		(dnp no)
 		(uuid "524c891f-609e-4706-a1bd-ad58e4c1bb35")
 		(property "Reference" "#PWR084"
-			(at 207.01 80.01 0)
+			(at 217.17 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20103,7 +19053,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 207.01 77.216 0)
+			(at 217.17 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20114,7 +19064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 73.66 0)
+			(at 217.17 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20125,7 +19075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 73.66 0)
+			(at 217.17 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20136,7 +19086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 73.66 0)
+			(at 217.17 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20316,7 +19266,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 88.9 0)
+		(at 220.98 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20327,7 +19277,7 @@
 		(dnp no)
 		(uuid "56172638-05d1-4c1a-8be9-f6e788becada")
 		(property "Reference" "D16"
-			(at 213.36 87.884 0)
+			(at 223.52 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20337,7 +19287,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 86.614 0)
+			(at 220.98 86.614 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20348,7 +19298,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 93.345 0)
+			(at 220.98 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20359,7 +19309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20370,7 +19320,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20381,7 +19331,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21401,7 +20351,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 73.66 0)
+		(at 275.59 73.66 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21412,7 +20362,7 @@
 		(dnp no)
 		(uuid "61fb380a-5e59-4fe5-8d3e-e569b2e9184e")
 		(property "Reference" "D26"
-			(at 267.97 72.644 0)
+			(at 278.13 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21422,7 +20372,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 71.374 0)
+			(at 275.59 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21433,7 +20383,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 78.105 0)
+			(at 275.59 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21444,7 +20394,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 73.66 0)
+			(at 275.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21455,7 +20405,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 73.66 0)
+			(at 275.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21466,7 +20416,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 73.66 0)
+			(at 275.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22438,108 +21388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 274.32 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72004e41-4902-45b4-b2f5-24d3c7ad7c49")
-		(property "Reference" "J19"
-			(at 272.796 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Male_Fallback"
-			(at 271.78 69.8501 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinHeader_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 274.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C492413.html"
-			(at 274.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60bcfd9b-15ea-4954-a3c5-88a634cdb617")
-		)
-		(pin "3"
-			(uuid "21da839a-6657-4204-abab-3cc997798f9f")
-		)
-		(pin "5"
-			(uuid "4ff23bb1-c9e7-47d8-a4be-f2baa9b080d5")
-		)
-		(pin "4"
-			(uuid "f5186231-38bf-4e62-8ad1-2241b5db68d4")
-		)
-		(pin "2"
-			(uuid "961a13ac-0d94-460b-87b7-c858d8e99889")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 63.5 48.26 0)
 		(unit 1)
@@ -22618,7 +21466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 35.56 0)
+		(at 271.78 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22628,7 +21476,7 @@
 		(dnp no)
 		(uuid "74c7b876-1f8e-498b-95fb-e4591e68fbea")
 		(property "Reference" "#PWR02"
-			(at 261.62 41.91 0)
+			(at 271.78 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22639,7 +21487,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 261.62 39.116 0)
+			(at 271.78 39.116 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22650,7 +21498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 35.56 0)
+			(at 271.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22661,7 +21509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 35.56 0)
+			(at 271.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22672,7 +21520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 35.56 0)
+			(at 271.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22970,7 +21818,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 71.12 0)
+		(at 220.98 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22981,7 +21829,7 @@
 		(dnp no)
 		(uuid "7abbb82a-3e68-4471-b29e-90f6e36f33b2")
 		(property "Reference" "D13"
-			(at 213.36 70.104 0)
+			(at 223.52 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22991,7 +21839,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 68.834 0)
+			(at 220.98 68.834 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23002,7 +21850,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 75.565 0)
+			(at 220.98 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23013,7 +21861,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 71.12 0)
+			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23024,7 +21872,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 71.12 0)
+			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23035,7 +21883,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 71.12 0)
+			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23426,7 +22274,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 91.44 0)
+		(at 220.98 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23437,7 +22285,7 @@
 		(dnp no)
 		(uuid "7f020d09-bd4c-4f65-8a28-b7efb297c616")
 		(property "Reference" "D17"
-			(at 213.36 90.424 0)
+			(at 223.52 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23447,7 +22295,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 89.154 0)
+			(at 220.98 89.154 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23458,7 +22306,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 95.885 0)
+			(at 220.98 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23469,7 +22317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 91.44 0)
+			(at 220.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23480,7 +22328,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 91.44 0)
+			(at 220.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23491,7 +22339,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 91.44 0)
+			(at 220.98 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24130,7 +22978,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 53.34 0)
+		(at 217.17 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24140,7 +22988,7 @@
 		(dnp no)
 		(uuid "8a165808-a567-4753-a716-d37f5c7c8371")
 		(property "Reference" "#PWR083"
-			(at 207.01 59.69 0)
+			(at 217.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24151,7 +22999,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 207.01 56.896 0)
+			(at 217.17 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24162,7 +23010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 53.34 0)
+			(at 217.17 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24173,7 +23021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 53.34 0)
+			(at 217.17 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24184,7 +23032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 53.34 0)
+			(at 217.17 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24571,111 +23419,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 274.32 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fab9731-f3d9-4fab-b6cb-7af796b0ba9e")
-		(property "Reference" "J18"
-			(at 272.796 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Female_Fallback"
-			(at 271.78 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinSocket_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 274.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C35167.html"
-			(at 274.32 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30f99cd5-2052-4005-b0fb-8a6a49d6d594")
-		)
-		(pin "3"
-			(uuid "4f4ddb4d-5367-42b2-abf2-c9ffcabed5e2")
-		)
-		(pin "5"
-			(uuid "eef846b9-d60a-400b-a36e-9b34216f3062")
-		)
-		(pin "4"
-			(uuid "10f4b0a4-953a-40d6-9a64-b2bb3b6cf6f2")
-		)
-		(pin "2"
-			(uuid "3ab605fb-ab64-46c7-b5b8-1aeca71f0b6f")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 73.66 0)
+		(at 220.98 73.66 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24686,7 +23431,7 @@
 		(dnp no)
 		(uuid "91b08096-683a-49f5-826a-255043892465")
 		(property "Reference" "D14"
-			(at 213.36 72.644 0)
+			(at 223.52 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24696,7 +23441,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 71.374 0)
+			(at 220.98 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24707,7 +23452,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 78.105 0)
+			(at 220.98 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24718,7 +23463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 73.66 0)
+			(at 220.98 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24729,7 +23474,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 73.66 0)
+			(at 220.98 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24740,7 +23485,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 73.66 0)
+			(at 220.98 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24859,7 +23604,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 91.44 0)
+		(at 275.59 91.44 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24870,7 +23615,7 @@
 		(dnp no)
 		(uuid "9655563e-fe54-48ce-95bf-c16e98e39690")
 		(property "Reference" "D29"
-			(at 267.97 90.424 0)
+			(at 278.13 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24880,7 +23625,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 89.154 0)
+			(at 275.59 89.154 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24891,7 +23636,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 95.885 0)
+			(at 275.59 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24902,7 +23647,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 91.44 0)
+			(at 275.59 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24913,7 +23658,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 91.44 0)
+			(at 275.59 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24924,7 +23669,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 91.44 0)
+			(at 275.59 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26642,7 +25387,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 53.34 0)
+		(at 220.98 53.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26653,7 +25398,7 @@
 		(dnp no)
 		(uuid "a5489e2f-d043-4c4f-8864-098c4460636a")
 		(property "Reference" "D11"
-			(at 213.36 52.324 0)
+			(at 223.52 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26663,7 +25408,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 51.054 0)
+			(at 220.98 51.054 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26674,7 +25419,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 57.785 0)
+			(at 220.98 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26685,7 +25430,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 53.34 0)
+			(at 220.98 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26696,7 +25441,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 53.34 0)
+			(at 220.98 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26707,7 +25452,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 53.34 0)
+			(at 220.98 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26733,111 +25478,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 219.71 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a8570227-31fd-47f5-a6f7-7705a9cc7d31")
-		(property "Reference" "J14"
-			(at 218.186 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Female_Fallback"
-			(at 217.17 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinSocket_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 219.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C35167.html"
-			(at 219.71 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "47c87027-f685-407b-b630-06ae4a74ba78")
-		)
-		(pin "3"
-			(uuid "41120926-ce06-4762-b4b1-3409bfff0022")
-		)
-		(pin "5"
-			(uuid "0b5c77fd-fc42-4e55-8c00-727954900f0f")
-		)
-		(pin "4"
-			(uuid "914366a5-8427-4af6-8b6c-d604d689fa11")
-		)
-		(pin "2"
-			(uuid "af68cca4-10a2-46b8-854b-ca78cec50e94")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 207.01 91.44 0)
+		(at 217.17 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26847,7 +25489,7 @@
 		(dnp no)
 		(uuid "aea54a00-c2cd-4c0d-8b09-6b6524d0ff8d")
 		(property "Reference" "#PWR085"
-			(at 207.01 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26858,7 +25500,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 207.01 94.996 0)
+			(at 217.17 94.996 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26869,7 +25511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 91.44 0)
+			(at 217.17 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26880,7 +25522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 91.44 0)
+			(at 217.17 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26891,7 +25533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 91.44 0)
+			(at 217.17 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26994,7 +25636,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 30.48 0)
+		(at 220.98 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27005,7 +25647,7 @@
 		(dnp no)
 		(uuid "b05b8f9d-d7e6-41e0-ad9a-e1fd0741507d")
 		(property "Reference" "D6"
-			(at 213.36 29.464 0)
+			(at 223.52 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27015,7 +25657,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 28.194 0)
+			(at 220.98 28.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27026,7 +25668,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 34.925 0)
+			(at 220.98 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27037,7 +25679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 30.48 0)
+			(at 220.98 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27048,7 +25690,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 30.48 0)
+			(at 220.98 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27059,7 +25701,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 30.48 0)
+			(at 220.98 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27163,7 +25805,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 30.48 0)
+		(at 275.59 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27174,7 +25816,7 @@
 		(dnp no)
 		(uuid "b15fcff8-9a67-4467-926f-57b1a46885eb")
 		(property "Reference" "D18"
-			(at 267.97 29.464 0)
+			(at 278.13 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27184,7 +25826,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 28.194 0)
+			(at 275.59 28.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27195,7 +25837,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 34.925 0)
+			(at 275.59 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27206,7 +25848,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 30.48 0)
+			(at 275.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27217,7 +25859,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 30.48 0)
+			(at 275.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27228,7 +25870,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 30.48 0)
+			(at 275.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27255,7 +25897,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 71.12 0)
+		(at 275.59 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27266,7 +25908,7 @@
 		(dnp no)
 		(uuid "b1b53da8-a751-4edd-9357-e735c185912f")
 		(property "Reference" "D25"
-			(at 267.97 70.104 0)
+			(at 278.13 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27276,7 +25918,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 68.834 0)
+			(at 275.59 68.834 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27287,7 +25929,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 75.565 0)
+			(at 275.59 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27298,7 +25940,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 71.12 0)
+			(at 275.59 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27309,7 +25951,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 71.12 0)
+			(at 275.59 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27320,7 +25962,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 71.12 0)
+			(at 275.59 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28067,7 +26709,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 33.02 0)
+		(at 275.59 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -28078,7 +26720,7 @@
 		(dnp no)
 		(uuid "c3100dbe-47b1-4fd2-8b98-831ffe997868")
 		(property "Reference" "D19"
-			(at 267.97 32.004 0)
+			(at 278.13 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28088,7 +26730,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 30.734 0)
+			(at 275.59 30.734 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28099,7 +26741,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 37.465 0)
+			(at 275.59 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28110,7 +26752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 33.02 0)
+			(at 275.59 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28121,7 +26763,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 33.02 0)
+			(at 275.59 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28132,7 +26774,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 33.02 0)
+			(at 275.59 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28406,7 +27048,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 91.44 0)
+		(at 271.78 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28416,7 +27058,7 @@
 		(dnp no)
 		(uuid "c94b7c8b-e1c6-4ce1-9cb0-8397183af8ca")
 		(property "Reference" "#PWR086"
-			(at 261.62 97.79 0)
+			(at 271.78 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28427,7 +27069,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 261.62 94.996 0)
+			(at 271.78 94.996 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28438,7 +27080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 91.44 0)
+			(at 271.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28449,7 +27091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 91.44 0)
+			(at 271.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28460,7 +27102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 91.44 0)
+			(at 271.78 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28484,7 +27126,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 33.02 0)
+		(at 220.98 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -28495,7 +27137,7 @@
 		(dnp no)
 		(uuid "ca8c295a-f8f8-4ae1-8b3a-15d46696cb3d")
 		(property "Reference" "D7"
-			(at 213.36 32.004 0)
+			(at 223.52 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28505,7 +27147,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 30.734 0)
+			(at 220.98 30.734 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28516,7 +27158,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 37.465 0)
+			(at 220.98 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28527,7 +27169,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 33.02 0)
+			(at 220.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28538,7 +27180,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 33.02 0)
+			(at 220.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28549,7 +27191,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 33.02 0)
+			(at 220.98 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29168,7 +27810,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 48.26 0)
+		(at 275.59 48.26 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -29179,7 +27821,7 @@
 		(dnp no)
 		(uuid "d2095935-7a2c-4b35-9ea9-7f5dfecc0655")
 		(property "Reference" "D21"
-			(at 267.97 47.244 0)
+			(at 278.13 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29189,7 +27831,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 45.974 0)
+			(at 275.59 45.974 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29200,7 +27842,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 52.705 0)
+			(at 275.59 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29211,7 +27853,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 48.26 0)
+			(at 275.59 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29222,7 +27864,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 48.26 0)
+			(at 275.59 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29233,7 +27875,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 48.26 0)
+			(at 275.59 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30280,7 +28922,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 86.36 0)
+		(at 275.59 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30291,7 +28933,7 @@
 		(dnp no)
 		(uuid "dac6f975-0e38-46d0-aaa6-29f94015c4d3")
 		(property "Reference" "D27"
-			(at 267.97 85.344 0)
+			(at 278.13 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30301,7 +28943,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 84.074 0)
+			(at 275.59 84.074 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30312,7 +28954,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 90.805 0)
+			(at 275.59 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30323,7 +28965,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 86.36 0)
+			(at 275.59 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30334,7 +28976,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 86.36 0)
+			(at 275.59 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30345,7 +28987,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 86.36 0)
+			(at 275.59 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30879,7 +29521,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 86.36 0)
+		(at 220.98 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -30890,7 +29532,7 @@
 		(dnp no)
 		(uuid "e1d437d7-c7bc-4f3e-8ee8-0bcdbe758062")
 		(property "Reference" "D15"
-			(at 213.36 85.344 0)
+			(at 223.52 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30900,7 +29542,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 84.074 0)
+			(at 220.98 84.074 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30911,7 +29553,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 90.805 0)
+			(at 220.98 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30922,7 +29564,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 86.36 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30933,7 +29575,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 86.36 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30944,7 +29586,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 86.36 0)
+			(at 220.98 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31404,7 +30046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 53.34 0)
+		(at 271.78 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31414,7 +30056,7 @@
 		(dnp no)
 		(uuid "e9ba215b-2ae4-4758-a838-cacaee51af0f")
 		(property "Reference" "#PWR03"
-			(at 261.62 59.69 0)
+			(at 271.78 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31425,7 +30067,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 261.62 56.896 0)
+			(at 271.78 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31436,7 +30078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 53.34 0)
+			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31447,7 +30089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 53.34 0)
+			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31458,7 +30100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 53.34 0)
+			(at 271.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31861,108 +30503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 274.32 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed7a8c10-6d9c-4930-898f-507c92a98f41")
-		(property "Reference" "J17"
-			(at 272.796 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P_Male_Fallback"
-			(at 271.78 31.7501 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project:PinHeader_1x05_P2.54mm_Horizontal_NoSilk"
-			(at 274.32 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/C492413.html"
-			(at 274.32 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5b055df-48ba-40da-a4d2-3dca3b80d1e8")
-		)
-		(pin "3"
-			(uuid "378a03db-3ed1-47f7-ae84-6b89b44ca8f8")
-		)
-		(pin "5"
-			(uuid "576311ae-d0e7-4218-a078-0b54b3e1afd9")
-		)
-		(pin "4"
-			(uuid "85c8b280-b285-46d6-ad2c-5d5ac3a3d369")
-		)
-		(pin "2"
-			(uuid "9c6e05fc-354c-456a-9550-a32ee7fe28cf")
-		)
-		(instances
-			(project "SnapNodes-RP2_Core"
-				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 234.95 243.84 270)
 		(unit 1)
@@ -32042,7 +30582,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 50.8 0)
+		(at 220.98 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -32053,7 +30593,7 @@
 		(dnp no)
 		(uuid "f2326394-87d1-41ac-b811-3a0b63921a13")
 		(property "Reference" "D10"
-			(at 213.36 49.784 0)
+			(at 223.52 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32063,7 +30603,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 48.514 0)
+			(at 220.98 48.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32074,7 +30614,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 55.245 0)
+			(at 220.98 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32085,7 +30625,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 50.8 0)
+			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32096,7 +30636,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 50.8 0)
+			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32107,7 +30647,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 50.8 0)
+			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32134,7 +30674,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 35.56 0)
+		(at 217.17 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32144,7 +30684,7 @@
 		(dnp no)
 		(uuid "f7f29e17-bb05-4a20-91c6-4ba3e576c1fe")
 		(property "Reference" "#PWR078"
-			(at 207.01 41.91 0)
+			(at 217.17 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32155,7 +30695,7 @@
 			)
 		)
 		(property "Value" "GND_CORE"
-			(at 207.01 39.116 0)
+			(at 217.17 39.116 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32166,7 +30706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 35.56 0)
+			(at 217.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32177,7 +30717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 35.56 0)
+			(at 217.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32188,7 +30728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 35.56 0)
+			(at 217.17 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32367,7 +30907,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 265.43 53.34 0)
+		(at 275.59 53.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -32378,7 +30918,7 @@
 		(dnp no)
 		(uuid "fbcb3e3d-3dbe-4c7f-be36-dbdd1e8ee4f9")
 		(property "Reference" "D23"
-			(at 267.97 52.324 0)
+			(at 278.13 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32388,7 +30928,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 265.43 51.054 0)
+			(at 275.59 51.054 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32399,7 +30939,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 265.43 57.785 0)
+			(at 275.59 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32410,7 +30950,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 265.43 53.34 0)
+			(at 275.59 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32421,7 +30961,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 265.43 53.34 0)
+			(at 275.59 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32432,7 +30972,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 265.43 53.34 0)
+			(at 275.59 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32719,7 +31259,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 210.82 68.58 0)
+		(at 220.98 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -32730,7 +31270,7 @@
 		(dnp no)
 		(uuid "fe40a732-4d64-4a8c-804c-654ad2306307")
 		(property "Reference" "D12"
-			(at 213.36 67.564 0)
+			(at 223.52 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32740,7 +31280,7 @@
 			)
 		)
 		(property "Value" "ESD5Z3.3-HXY"
-			(at 210.82 66.294 0)
+			(at 220.98 66.294 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32751,7 +31291,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 210.82 73.025 0)
+			(at 220.98 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32762,7 +31302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 210.82 68.58 0)
+			(at 220.98 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32773,7 +31313,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 210.82 68.58 0)
+			(at 220.98 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32784,7 +31324,7 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C4748782.html"
-			(at 210.82 68.58 0)
+			(at 220.98 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
