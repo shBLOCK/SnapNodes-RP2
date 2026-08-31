@@ -86,22 +86,6 @@
           ""
         ],
         [
-          "courtyards_overlap|104290751|129805000|3179eff1-6532-460e-ab40-75a20538f263|ac8ff8d1-eb47-4e02-8239-e196abf54a00",
-          ""
-        ],
-        [
-          "courtyards_overlap|104745000|128572841|97a82cb4-d84f-495d-a4f1-5ed0f8eb241c|ac8ff8d1-eb47-4e02-8239-e196abf54a00",
-          ""
-        ],
-        [
-          "courtyards_overlap|109840751|135355000|23867fe3-f52d-4975-85b3-24b27b05a1ae|ac8ff8d1-eb47-4e02-8239-e196abf54a00",
-          ""
-        ],
-        [
-          "courtyards_overlap|111305000|135355000|78b2caca-51b5-497a-8ab6-fcad81a2312c|ac8ff8d1-eb47-4e02-8239-e196abf54a00",
-          ""
-        ],
-        [
           "courtyards_overlap|112705000|104215000|3f17361a-c80a-4076-ad6b-a23cbd5eccb0|748b2bd8-1bcd-4a81-82e5-39191e5b73f0",
           ""
         ],
@@ -162,10 +146,6 @@
           ""
         ],
         [
-          "hole_to_hole|129600000|135500000|6db5548e-5274-4cdd-b0ea-c19dba1b6e77|9c4db31e-c87c-4cb3-b00b-c8bb19028bc4",
-          ""
-        ],
-        [
           "hole_to_hole|130100000|135000000|83334b98-96e0-42ef-a440-e372653676ad|9c4db31e-c87c-4cb3-b00b-c8bb19028bc4",
           ""
         ],
@@ -218,6 +198,10 @@
           ""
         ],
         [
+          "starved_thermal|114650000|104306218|1ea7b7e5-df4f-44ff-8e2c-3053d346e783|832f92f6-0ef0-490c-a1bc-ee01454bad3e|B.Cu",
+          ""
+        ],
+        [
           "starved_thermal|123515000|113050000|1ea7b7e5-df4f-44ff-8e2c-3053d346e783|49f3f2c3-e4dd-4f69-bf0a-6c55d391fe81|F.Cu",
           ""
         ],
@@ -227,6 +211,10 @@
         ],
         [
           "starved_thermal|126937500|130052500|1ea7b7e5-df4f-44ff-8e2c-3053d346e783|de65b8d5-817f-4331-afef-b0d378c53391|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|131075000|125750000|1ea7b7e5-df4f-44ff-8e2c-3053d346e783|7b65f549-580e-40e4-88c1-94589124a9e6|F.Cu",
           ""
         ]
       ],
@@ -315,7 +303,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -858,7 +846,7 @@
         "uuid": "6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
       }
     ],
-    "used_designators": "D3,D6-28,#PWR1-3,#PWR5,#PWR7-8,#PWR10-12,#PWR24,#PWR26-27,#PWR29-33,#PWR35-43,#PWR45-53,#PWR55-71,#PWR73-79,#PWR83-86,#PWR88-90,#PWR92-96,BT1,J10,TP2-5,R31-33,R35-43",
+    "used_designators": "D3,D6-34,#PWR1-3,#PWR5,#PWR7-8,#PWR10-14,#PWR16,#PWR18,#PWR24,#PWR26-27,#PWR29-33,#PWR35-43,#PWR45-53,#PWR55-71,#PWR73-79,#PWR83-86,#PWR88-90,#PWR92-100,BT1,J10,TP2-5,R31-33,R35-43",
     "variants": []
   },
   "sheets": [

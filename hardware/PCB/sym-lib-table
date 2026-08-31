@@ -1,5 +1,7 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "RP2350")(type "KiCad")(uri "${KIPRJMOD}/lib/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
-  (lib (name "Project")(type "KiCad")(uri "${KIPRJMOD}/lib/Project.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "RP2350") (type "KiCad") (uri "${KIPRJMOD}/lib/MCU_RaspberryPi_RP2350.kicad_sym") (options "") (descr ""))
+	(lib (name "Project") (type "KiCad") (uri "${KIPRJMOD}/lib/Project.kicad_sym") (options "") (descr ""))
+	(lib (name "CD143A-SR05") (type "KiCad") (uri "${KIPRJMOD}/lib/CD143A-SR05.kicad_sym") (options "") (descr ""))
+	(lib (name "TMD37253M") (type "KiCad") (uri "${KIPRJMOD}/lib/TMD37253M.kicad_sym") (options "") (descr ""))
 )
