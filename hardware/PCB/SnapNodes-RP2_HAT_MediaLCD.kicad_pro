@@ -78,19 +78,15 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|105900000|124755000|2baeff3f-1a89-4e79-80b3-0b261f9f9487|d9855763-c74e-49e5-b6b0-81d2fb14b202",
+          "courtyards_overlap|109300000|124755000|2baeff3f-1a89-4e79-80b3-0b261f9f9487|d9855763-c74e-49e5-b6b0-81d2fb14b202",
           ""
         ],
         [
-          "courtyards_overlap|108000000|124755000|7001482b-272b-4016-9c0d-5a243acf0521|d9855763-c74e-49e5-b6b0-81d2fb14b202",
+          "courtyards_overlap|111400000|124755000|7001482b-272b-4016-9c0d-5a243acf0521|d9855763-c74e-49e5-b6b0-81d2fb14b202",
           ""
         ],
         [
           "courtyards_overlap|124205000|127595000|bd216419-c55b-44e9-a45f-ae3a96469199|cbaa6791-f13e-4ba6-8e3e-a280898af5e0",
-          ""
-        ],
-        [
-          "hole_to_hole|103912131|130999999|212f8a8a-4548-4ed1-99fd-c9ac7d85f354|81614e0a-2fbf-494a-a9ad-032b1d22f271",
           ""
         ],
         [
@@ -122,6 +118,18 @@
           ""
         ],
         [
+          "items_not_allowed|102600000|120075000|34adb06f-ba1d-493c-818b-ab104fedded4|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|104400000|121775000|2a6b0216-82b1-439e-9b63-c6e71138e90a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|137475000|115680000|eedc4699-e0c5-4edd-8034-101c2e339cc2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "npth_inside_courtyard|133395000|117110000|74f3dfd8-18ae-49c5-90f4-02685d991081|546d5559-c841-4a12-a0da-d9f603f0b66b",
           ""
         ],
@@ -139,10 +147,6 @@
         ],
         [
           "starved_thermal|109775000|132575000|8191902f-0edd-4870-ac23-76dc81a5ae80|6c9988be-d745-4d71-8192-75dedb3fdf8e|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|131700000|137700000|8191902f-0edd-4870-ac23-76dc81a5ae80|4d25562d-e6c3-40ac-8471-576459655524|F.Cu",
           ""
         ],
         [
@@ -728,14 +732,80 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC P/N",
+          "name": "LCSC P/N",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC P/N"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

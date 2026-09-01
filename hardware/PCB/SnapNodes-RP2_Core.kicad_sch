@@ -5,7 +5,7 @@
 	(uuid "6f1408eb-7dd3-44b9-8221-8c67c4ed9d95")
 	(paper "A3")
 	(title_block
-		(title "SnapNode RP2 Core")
+		(title "SnapNodes RP2 Core")
 		(date "2026-08-29")
 		(rev "1.1.0")
 		(company "shBLOCK & Jason Chen")
@@ -15000,6 +15000,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C50430"
+			(at 58.42 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f03b88c-507f-4218-9a68-c0a059f57327")
 		)
@@ -15166,6 +15177,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f2ddd13-8876-45b0-a6c8-9f90996f4d12")
 		)
@@ -15238,6 +15260,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15571,6 +15604,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25744"
+			(at 67.31 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab6d381e-d7c7-4735-aa92-8781dc18e20c")
 		)
@@ -15730,6 +15774,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906868.html"
+			(at 133.35 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25105"
 			(at 133.35 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -16384,6 +16439,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25082"
+			(at 295.91 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87576e30-ea8d-4e71-a3ce-bbda8485f78e")
 		)
@@ -16554,6 +16620,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 295.91 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebf9bf6e-b219-4331-812f-33afd6db272b")
 		)
@@ -16646,6 +16723,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1548"
+			(at 48.26 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "272c0e68-c89a-4cbe-a90a-17621480cc6c")
 		)
@@ -16717,6 +16805,17 @@
 		)
 		(property "Description" "test point"
 			(at 72.39 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 72.39 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16804,6 +16903,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906859.html"
+			(at 59.69 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25741"
 			(at 59.69 269.24 90)
 			(hide yes)
 			(show_name no)
@@ -16905,6 +17015,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C11702"
+			(at 57.15 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bcfaf614-aead-4415-b726-28d6a4a545a6")
 		)
@@ -16996,6 +17117,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25741"
+			(at 171.45 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f29e9f63-a3d7-4308-a25a-7dced992123a")
 		)
@@ -17068,6 +17200,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C53477378"
 			(at 96.52 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -17319,6 +17462,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 325.12 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "SnapNodes-RP2_Core"
 				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
@@ -17394,6 +17548,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906979.html"
+			(at 114.3 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25871"
 			(at 114.3 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -17649,6 +17814,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25082"
+			(at 295.91 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1360f3c7-3ed2-4123-8072-3b71d2feb35b")
 		)
@@ -17740,6 +17916,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 295.91 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64a39342-6b28-46bd-9598-1a6672ebd2d5")
 		)
@@ -17812,6 +17999,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 275.59 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17982,6 +18180,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 325.12 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "SnapNodes-RP2_Core"
 				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
@@ -18024,7 +18233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 275.59 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -18058,6 +18267,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C86295.html"
+			(at 275.59 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C45783"
 			(at 275.59 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -18307,6 +18527,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48a284b6-a48f-4c69-a901-9b420c681310")
 		)
@@ -18547,6 +18778,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 325.12 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "SnapNodes-RP2_Core"
 				(path "/6f1408eb-7dd3-44b9-8221-8c67c4ed9d95"
@@ -18613,6 +18855,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 220.98 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18703,6 +18956,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C5158048"
+			(at 236.22 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6701da61-870a-42e7-95ad-fd5010fc5e60")
 		)
@@ -18784,6 +19048,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 241.3 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25079"
 			(at 241.3 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -18957,6 +19232,17 @@
 			)
 		)
 		(property "Link" "https://www.aliexpress.com/item/4000203259512.html"
+			(at 284.48 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 284.48 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -19294,6 +19580,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bbfdd394-269c-447d-9375-b8db544bf593")
 		)
@@ -19377,6 +19674,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 231.14 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 231.14 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -19652,6 +19960,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C163467"
+			(at 262.89 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "883ebfa6-15f4-43c1-9782-10d9501de65d")
 		)
@@ -19735,6 +20054,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 214.63 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1525"
 			(at 214.63 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19835,6 +20165,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C52140422"
+			(at 148.59 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "5ade60ec-987b-49c1-9bf2-d1c45d4e1a1c")
 		)
@@ -19924,6 +20265,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C528622.html"
+			(at 101.6 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C528622"
 			(at 101.6 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -20070,6 +20422,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25082"
+			(at 295.91 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2477a185-3ce2-4a6a-a049-9c030d64da40")
 		)
@@ -20142,6 +20505,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 220.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20321,6 +20695,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25741"
+			(at 218.44 248.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edd40b65-c214-42dd-88f9-491a10dd2146")
 		)
@@ -20482,6 +20867,17 @@
 			)
 		)
 		(property "Link" "https://www.mouser.com/ProductDetail/Raspberry-Pi/SC151013-A4?qs=jcD%2FCkGBYeM5TtP1Ew4BSg%3D%3D"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C42415655"
 			(at 104.14 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -20810,6 +21206,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c53e7645-a12d-4d6a-ab3e-5960b8a11546")
 		)
@@ -20891,6 +21298,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 241.3 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25079"
 			(at 241.3 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -21151,6 +21569,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 284.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aadcdc42-2a92-4fc7-a399-3962b803e806")
 		)
@@ -21323,6 +21752,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62e44e68-c918-4245-8279-078204fb1a86")
 		)
@@ -21483,6 +21923,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C5158048"
+			(at 256.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b1284627-2366-4077-bb1e-816cc455d07c")
 		)
@@ -21556,6 +22007,17 @@
 		)
 		(property "Description" "test point"
 			(at 203.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 203.2 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21799,6 +22261,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 57.15 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd83dbf0-265a-4bb8-b974-193c7437d1a9")
 		)
@@ -21969,6 +22442,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 241.3 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "84657362-4a3e-4224-a5a5-02ac07d6f2ec")
 		)
@@ -22041,6 +22525,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 54.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 54.61 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22141,6 +22636,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 295.91 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a02d8a4-429b-4042-b9d3-a853f12022cb")
 		)
@@ -22222,6 +22728,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 295.91 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25082"
 			(at 295.91 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -22327,6 +22844,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C7420322"
+			(at 64.77 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f4f48606-fdf3-4277-9ffe-88298746e7e2")
 		)
@@ -22412,6 +22940,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C368809.html"
+			(at 63.5 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 63.5 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -22670,6 +23209,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25105"
+			(at 57.15 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ce3f2222-8f3b-4355-bf09-e632e7acad83")
 		)
@@ -22742,6 +23292,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 325.12 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 325.12 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22861,6 +23422,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C7420320"
+			(at 226.06 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4983108e-e3c9-47b6-8dd8-fab1798edba9")
 		)
@@ -22953,6 +23525,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1548"
+			(at 48.26 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60dd59e2-ca91-4343-a3b3-00c44b98b5c5")
 		)
@@ -23025,6 +23608,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23114,6 +23708,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C435392.html"
+			(at 260.35 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C7471163"
 			(at 260.35 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -23216,6 +23821,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25741"
+			(at 133.35 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ad3bed2-f773-4a00-b8ae-08e48342fdf8")
 		)
@@ -23308,6 +23924,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19666"
+			(at 34.29 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09f1d059-9c3a-4999-a70a-9ff04ab77635")
 		)
@@ -23390,6 +24017,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C60474.html"
+			(at 148.59 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1525"
 			(at 148.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -23571,6 +24209,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 156.21 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ea998e5-4ab1-4ba5-8ab9-ff34a19ad382")
 		)
@@ -23655,6 +24304,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C49274051.html"
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C481246"
 			(at 363.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -23973,6 +24633,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "090534dd-b817-4771-bce4-109e4d67015b")
 		)
@@ -24063,6 +24734,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C11702"
+			(at 67.31 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fa9d5ed8-f6ab-4710-af01-dbe799b5d517")
 		)
@@ -24135,6 +24817,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 275.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24392,6 +25085,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 171.45 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "884f8307-7b13-4440-9c67-e52af977255c")
 		)
@@ -24474,6 +25178,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C60474.html"
+			(at 236.22 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1525"
 			(at 236.22 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -24643,6 +25358,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2909343.html"
+			(at 143.51 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25100"
 			(at 143.51 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -24823,6 +25549,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 295.91 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc0b050c-88a1-4f35-8f71-52fa819a1868")
 		)
@@ -24914,6 +25651,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25744"
+			(at 86.36 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40f82c29-368d-4efe-b4a0-a687853ef17b")
 		)
@@ -24995,6 +25743,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 241.3 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25079"
 			(at 241.3 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -25252,6 +26011,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 241.3 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e60dd01-dafc-426f-b443-8d5567229ae9")
 		)
@@ -25344,6 +26114,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 57.15 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f006978-de3f-477c-b024-9c99c9ec5297")
 		)
@@ -25416,6 +26197,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 220.98 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25509,6 +26301,17 @@
 			)
 		)
 		(property "Link" "https://www.aliexpress.com/item/4000203259512.html"
+			(at 229.87 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 229.87 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -25778,6 +26581,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 238.76 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9df6c97f-12a1-444d-80a2-1895865835e8")
 		)
@@ -25859,6 +26673,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 295.91 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25079"
 			(at 295.91 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -25961,6 +26786,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 118.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48450756-2d8f-4882-abc7-0b0939863693")
 		)
@@ -26042,6 +26878,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906980.html"
+			(at 220.98 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25741"
 			(at 220.98 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -26215,6 +27062,17 @@
 			)
 		)
 		(property "Link" "https://www.aliexpress.com/item/4000203259512.html"
+			(at 229.87 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 229.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -26473,6 +27331,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af0327b4-7fe8-4a46-91ec-eb587cdeca5a")
 		)
@@ -26644,6 +27513,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 110.49 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c06f5ea3-2986-468d-91d5-2356ab37bba0")
 		)
@@ -26805,6 +27685,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C60474.html"
+			(at 163.83 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1525"
 			(at 163.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -26997,6 +27888,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 231.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c5ca3b4c-b70b-4e75-a922-8f84ea5d8207")
 		)
@@ -27107,6 +28009,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 72.39 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26a3c8cc-04e2-40c9-a4ad-9fe80afb1d20")
 		)
@@ -27198,6 +28111,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25082"
+			(at 241.3 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acb352e8-e7ac-4f1b-abfa-70e43464303d")
 		)
@@ -27270,6 +28194,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 275.59 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C5158048"
+			(at 275.59 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27430,6 +28365,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 220.98 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27608,6 +28554,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 133.35 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73c324ce-3c0d-4108-b7d7-d293f10fd6e7")
 		)
@@ -27765,6 +28722,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2909343.html"
+			(at 143.51 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25100"
 			(at 143.51 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -27935,6 +28903,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d87d45b-01b8-445c-8644-5b7e6ba37646")
 		)
@@ -28096,6 +29075,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C1705.html"
+			(at 237.49 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 237.49 243.84 90)
 			(hide yes)
 			(show_name no)
@@ -28456,6 +29446,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C7420320"
+			(at 210.82 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2e649f77-46b7-401c-9160-f172a2053678")
 		)
@@ -28616,6 +29617,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 241.3 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25082"
 			(at 241.3 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -28796,6 +29808,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25082"
+			(at 241.3 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7768c401-bdd0-4bdc-96fc-dd1d0a54b254")
 		)
@@ -28880,6 +29903,17 @@
 			)
 		)
 		(property "Link" "https://www.aliexpress.com/item/4000203259512.html"
+			(at 284.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 284.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -29138,6 +30172,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f44b47ed-5ee5-4a85-9417-42b6e92ee579")
 		)
@@ -29375,6 +30420,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 54.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48f6a488-2f7f-4958-b76f-b94ea52978b0")
 		)
@@ -29447,6 +30503,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 295.91 13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C5158048"
+			(at 295.91 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29538,6 +30605,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C368809.html"
+			(at 44.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 44.45 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -29875,6 +30953,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C106996"
+			(at 266.7 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7214b38-11d7-432b-b81a-565efafca92d")
 		)
@@ -30113,6 +31202,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C1705.html"
+			(at 124.46 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 124.46 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -30372,6 +31472,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 295.91 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25242163-f033-47ea-81a4-8644d99a9fa4")
 		)
@@ -30456,6 +31567,17 @@
 			)
 		)
 		(property "Link" "https://www.aliexpress.com/item/1005004198626809.html"
+			(at 229.87 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 229.87 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -30559,6 +31681,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 295.91 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25079"
 			(at 295.91 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -30800,6 +31933,17 @@
 		)
 		(property "Description" "test point"
 			(at 203.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 203.2 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31124,6 +32268,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46c4f93b-6fda-4709-9242-33a20e0138ba")
 		)
@@ -31205,6 +32360,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906980.html"
+			(at 220.98 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25741"
 			(at 220.98 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -31543,6 +32709,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19709"
+			(at 262.89 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b85500ac-39b9-4456-b1af-9e4ed2b28871")
 		)
@@ -31636,6 +32813,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C7430445"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d440f5e-915c-4ad5-a3e9-0c6f898484ed")
 		)
@@ -31715,6 +32903,17 @@
 		)
 		(property "Description" "test point"
 			(at 203.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 203.2 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31890,6 +33089,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19666"
+			(at 64.77 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "adf98de3-4962-45f6-82fb-7b1a720dc117")
 		)
@@ -31995,6 +33205,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C917006.html"
+			(at 218.44 242.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C7420320"
 			(at 218.44 242.57 90)
 			(hide yes)
 			(show_name no)
@@ -32178,6 +33399,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 229.87 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1436d3ff-7c75-4cfe-a54b-62731816f278")
 		)
@@ -32272,6 +33504,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C368809.html"
+			(at 130.81 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 130.81 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -32455,6 +33698,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 284.48 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83fd57cd-c609-4fc6-8972-1b9332b95a22")
 		)
@@ -32548,6 +33802,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 241.3 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25082"
 			(at 241.3 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -32728,6 +33993,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 241.3 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00caa749-8e5a-4f43-811e-9ed7258d53d3")
 		)
@@ -32811,6 +34087,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C1705.html"
+			(at 88.9 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 88.9 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -32992,6 +34279,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 140.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9192b74e-4ab6-4676-8461-70b4b72eec8e")
 		)
@@ -33150,6 +34448,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906868.html"
+			(at 67.31 259.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25744"
 			(at 67.31 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -33320,6 +34629,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e89963d-5514-427c-bea0-4148ad9250b3")
 		)
@@ -33480,6 +34800,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "124d4e38-a6a4-4569-9e0d-c60abffc2c56")
 		)
@@ -33572,6 +34903,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19666"
+			(at 87.63 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7d818c9-2c3f-4c04-bb90-d527f07c23c2")
 		)
@@ -33653,6 +34995,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906982.html"
+			(at 88.9 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25744"
 			(at 88.9 246.38 90)
 			(hide yes)
 			(show_name no)
@@ -33834,6 +35187,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C42411119"
+			(at 52.07 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c7e4c86-cb09-483f-8558-2d067df84748")
 		)
@@ -33917,6 +35281,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6771811.html"
+			(at 168.91 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2910134"
 			(at 168.91 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -34018,6 +35393,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 295.91 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcbf7c1e-8ef0-475d-b7d9-c1504741bd21")
 		)
@@ -34091,6 +35477,17 @@
 		)
 		(property "Description" "test point"
 			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 203.2 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34179,6 +35576,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C60474.html"
+			(at 102.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1525"
 			(at 102.87 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -34281,6 +35689,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C1525"
+			(at 125.73 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "384d7e93-5748-48b6-b614-21723693b080")
 		)
@@ -34363,6 +35782,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C42267816.html"
+			(at 250.19 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C42267816"
 			(at 250.19 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -34457,6 +35887,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 275.59 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34617,6 +36058,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 220.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34863,6 +36315,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C46550846"
+			(at 220.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab11e6e9-7b84-4c0c-8fdd-86e57be23a23")
 		)
@@ -34935,6 +36398,17 @@
 		)
 		(property "Description" "Unidirectional ESD protection diode, 3.3V, SOD-882"
 			(at 275.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C46550846"
+			(at 275.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35035,6 +36509,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25079"
+			(at 241.3 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67495179-ed9a-4e3c-9851-585110bc390a")
 		)
@@ -35116,6 +36601,17 @@
 			)
 		)
 		(property "Link" ""
+			(at 241.3 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25079"
 			(at 241.3 73.66 90)
 			(hide yes)
 			(show_name no)

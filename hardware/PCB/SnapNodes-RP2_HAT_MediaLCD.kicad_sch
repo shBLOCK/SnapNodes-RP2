@@ -5,7 +5,7 @@
 	(uuid "725f612c-5b14-4de5-b1a5-af0fc890dd1c")
 	(paper "A4")
 	(title_block
-		(title "SnapNode-RP2 Hat")
+		(title "SnapNodes-RP2 Hat")
 		(date "2026-08-30")
 		(rev "1.1.0")
 		(company "shBLOCK & Jason Chen")
@@ -7354,12 +7354,6 @@
 		(uuid "127af61b-0476-4204-a524-b4a57875d26a")
 	)
 	(junction
-		(at 104.14 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "129d3935-49e9-4dd9-bc8c-190784e8a4b0")
-	)
-	(junction
 		(at 34.29 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7478,12 +7472,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61b3307c-3e09-4db5-80fa-b064ac06b53c")
-	)
-	(junction
-		(at 109.22 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "680498d7-8eea-41c5-b615-6ec49ffc39a5")
 	)
 	(junction
 		(at 111.76 133.35)
@@ -7866,16 +7854,6 @@
 			(type default)
 		)
 		(uuid "231f98c7-5ea0-4788-9d89-4708d18c2404")
-	)
-	(wire
-		(pts
-			(xy 109.22 90.17) (xy 109.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f30496-9eb0-45f0-8d5a-0a745897b201")
 	)
 	(wire
 		(pts
@@ -8439,16 +8417,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 90.17) (xy 104.14 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "704e3681-888b-4df6-8b77-ebe88e4634b7")
-	)
-	(wire
-		(pts
 			(xy 209.55 39.37) (xy 224.79 39.37)
 		)
 		(stroke
@@ -8749,7 +8717,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 104.14 101.6)
+			(xy 104.14 90.17) (xy 104.14 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8936,16 +8904,6 @@
 			(type default)
 		)
 		(uuid "ce98099a-765e-446c-a788-4717d25c7c04")
-	)
-	(wire
-		(pts
-			(xy 109.22 92.71) (xy 109.22 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef02f9f-899a-441b-96a2-919b66e47903")
 	)
 	(wire
 		(pts
@@ -11589,6 +11547,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19666"
+			(at 101.6 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e7777aa-8b3a-4f79-a31a-3dba79d1e1a1")
 		)
@@ -11740,6 +11709,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 50.8 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11903,6 +11883,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906980.html"
+			(at 176.53 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25803"
 			(at 176.53 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -12467,6 +12458,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 227.33 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f11ede2-3cbd-42c6-a18b-c714fef2d508")
 		)
@@ -12559,6 +12561,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 40.64 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edbf3a11-a8a6-4a20-a0a8-154a82af2cbd")
 		)
@@ -12631,6 +12644,17 @@
 			)
 		)
 		(property "Description" "Absolute Barometric Pressure Sensor, LGA-8"
+			(at 269.24 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 269.24 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12731,6 +12755,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 284.48 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 274.32 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13068,6 +13103,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 114.3 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "046f6676-f618-4d83-aa1d-f64841c888a9")
 		)
@@ -13218,6 +13264,17 @@
 			)
 		)
 		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 224.79 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C347373"
 			(at 224.79 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13467,6 +13524,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 77.47 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b6675dcb-5ac6-4356-a594-02420b3ae825")
 		)
@@ -13550,6 +13618,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 111.76 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13652,6 +13731,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 110.49 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8112da69-1d58-4109-b339-d9c4633ecfdc")
 		)
@@ -13733,6 +13823,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906982.html"
+			(at 30.48 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 30.48 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -13903,6 +14004,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2907044.html"
+			(at 44.45 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C23186"
 			(at 44.45 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -14321,6 +14433,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 121.92 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93613a7d-d5c0-40b1-8d70-89e05289ca82")
 		)
@@ -14401,6 +14524,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2765186.html"
+			(at 26.67 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2765186"
 			(at 26.67 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14538,6 +14672,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 190.5 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 190.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14698,6 +14843,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 237.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
+			(at 237.49 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14877,6 +15033,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25803"
+			(at 173.99 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "704a9692-6c50-478c-aaf6-f6843369761b")
 		)
@@ -14958,6 +15125,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906982.html"
+			(at 114.3 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 114.3 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -15061,6 +15239,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 121.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c8ede1e-3713-48db-98a5-426adcc5999a")
 		)
@@ -15142,6 +15331,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906980.html"
+			(at 102.87 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25803"
 			(at 102.87 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -15234,6 +15434,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C52917434"
+			(at 194.31 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9427b41a-638b-4ffe-81cd-eec3b58cd2c9")
 		)
@@ -15312,6 +15523,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 50.8 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 50.8 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -15467,6 +15689,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 194.31 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C52917434"
 			(at 194.31 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15799,6 +16032,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 106.68 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "552d91ac-3dad-4d64-b0b2-b66dee9e67ca")
 		)
@@ -15871,6 +16115,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2153068"
 			(at 181.61 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16068,6 +16323,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C23345"
+			(at 180.34 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7560bbbb-b3fd-443b-bda6-e67211a726f8")
 		)
@@ -16160,6 +16426,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19666"
+			(at 177.8 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22b4d23d-ea61-4c03-b0bf-7a07875c47c4")
 		)
@@ -16232,6 +16509,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 50.8 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 50.8 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -16318,6 +16606,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 162.56 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 162.56 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16500,6 +16799,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 111.76 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "930dd133-f22d-4630-b30c-e9249249fb55")
 		)
@@ -16671,6 +16981,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19666"
+			(at 240.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90184e7d-416f-438e-bfdd-2f615f2b5c67")
 		)
@@ -16743,6 +17064,17 @@
 			)
 		)
 		(property "Description" "2-Kbit (256 x 8-bit) I2C Serial EEPROM, chip address inputs (A0, A1, A2), write-protect pin (WP), 4.5..5.5V supply, SOIC-8"
+			(at 224.79 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 224.79 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17256,6 +17588,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 200.66 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "343147ea-2a7a-4ee8-a05b-5715371afa0c")
 		)
@@ -17326,6 +17669,17 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 50.8 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 50.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17421,6 +17775,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C49274051.html"
+			(at 149.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C481246"
 			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -17662,6 +18027,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C15849"
+			(at 86.36 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1dcadc31-dcf4-4210-a89c-a989ca6d05ab")
 		)
@@ -17831,6 +18207,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 114.3 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f1f1e1d-9126-40ed-8ad9-65cc7b4e3a95")
 		)
@@ -17914,6 +18301,17 @@
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
 			(at 33.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 33.02 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18086,6 +18484,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C53477378"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1df41e28-3fa3-4ea1-892a-b31c7fc06ff0")
 		)
@@ -18170,6 +18579,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 265.43 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63b02bae-9452-462c-90d1-9962afb6e3f0")
 		)
@@ -18242,6 +18662,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 276.86 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
+			(at 266.7 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18334,6 +18765,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 111.76 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 111.76 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -18741,6 +19183,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 77.47 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "336c192d-8360-4664-950e-9f60fe42c710")
 		)
@@ -18982,6 +19435,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6771811.html"
+			(at 96.52 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C2910134"
 			(at 96.52 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -19241,6 +19705,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25803"
+			(at 102.87 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21947dbb-95a3-4dc8-8ac7-3db1d016f88b")
 		)
@@ -19323,6 +19798,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 210.82 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -19582,6 +20068,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 220.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca836301-e0c8-496e-bc9d-b7ab7365d2e3")
 		)
@@ -19663,6 +20160,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906982.html"
+			(at 114.3 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 114.3 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -19756,6 +20264,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2837549.html"
+			(at 121.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 121.92 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20013,6 +20532,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25804"
+			(at 156.21 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04c5abd0-ecea-4476-b656-30511356076b")
 		)
@@ -20096,6 +20626,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C6119867.html"
+			(at 111.76 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 111.76 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -20345,6 +20886,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 50.8 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "807b2594-2194-4b2e-b1f1-f3cf5cfcc42c")
 		)
@@ -20417,6 +20969,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C49230436"
 			(at 33.02 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -20766,6 +21329,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C19702"
+			(at 187.96 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8cb8229-b325-4dfd-951f-0e14bbd8da4a")
 		)
@@ -20916,6 +21490,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C52917434"
 			(at 224.79 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -21094,6 +21679,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C262559.html"
+			(at 125.73 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C49274051"
 			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -21387,6 +21983,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 121.92 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ef13fd5-4757-43d0-b7df-fd68c1a4215d")
 		)
@@ -21468,6 +22075,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906980.html"
+			(at 102.87 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25803"
 			(at 102.87 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21641,6 +22259,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 267.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c0d12995-703f-44c5-973f-f2846128dca2")
 		)
@@ -21657,86 +22286,6 @@
 			(project "SnapNodes-RP2_HAT_MediaLCD"
 				(path "/725f612c-5b14-4de5-b1a5-af0fc890dd1c"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_Small_1")
-		(lib_id "Device:C_Small")
-		(at 106.68 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a721a725-ce4b-4e65-845d-8242b460e285")
-		(property "Reference" "C9"
-			(at 104.14 93.726 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1n"
-			(at 108.712 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.68 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 96.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6cb54e5b-41e8-47b0-af77-29084544cb4b")
-		)
-		(pin "1"
-			(uuid "8ec4e46a-8065-46fe-918b-fcdd50dac8f9")
-		)
-		(instances
-			(project "SnapNodes-RP2_HAT_MediaLCD"
-				(path "/725f612c-5b14-4de5-b1a5-af0fc890dd1c"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -21799,6 +22348,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C189961"
 			(at 104.14 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21978,6 +22538,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 50.8 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -22387,6 +22958,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C23186"
+			(at 44.45 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c939e018-17d7-4567-b78c-191b79c60c13")
 		)
@@ -22559,6 +23141,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" ""
+			(at 121.92 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9124131f-1db3-44b1-8f1d-8cf6c27da96e")
 		)
@@ -22640,6 +23233,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906980.html"
+			(at 102.87 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25803"
 			(at 102.87 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -22978,6 +23582,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C25803"
+			(at 102.87 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac30cfdf-7166-4f5e-8912-b024a71bb2fd")
 		)
@@ -23057,6 +23672,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C4211"
+			(at 62.23 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c35485c-db37-459a-bee9-16da997e2592")
 		)
@@ -23127,6 +23753,17 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 50.8 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 50.8 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -23452,6 +24089,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C22984"
+			(at 85.09 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60f1daec-e77a-40de-8bc5-13f573740701")
 		)
@@ -23612,6 +24260,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C48783161"
+			(at 62.23 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "600e20ca-b3b4-40e8-8a0c-e02d8b7d970c")
 		)
@@ -23708,7 +24367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 92.71 90)
+		(at 109.22 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23719,7 +24378,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ec6928-c91b-47e3-a2f8-0cd828c9099f")
 		(property "Reference" "#PWR023"
-			(at 115.57 92.71 0)
+			(at 115.57 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23730,7 +24389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 92.71 0)
+			(at 114.3 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23741,7 +24400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 92.71 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23752,7 +24411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 92.71 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23763,7 +24422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 92.71 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24010,6 +24669,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C52917434"
+			(at 224.79 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c1bded6-01a8-4030-99ee-61d70e58d561")
 		)
@@ -24099,6 +24769,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C967633.html?s_z=n_LSM6D"
+			(at 157.48 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C95230"
 			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -24534,6 +25215,17 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 66.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C1588"
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25026,6 +25718,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC P/N" "C521962"
+			(at 58.42 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a1e7a3ca-d613-4eba-b9ab-6d60fdff83ea")
 		)
@@ -25192,6 +25895,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C1705.html"
+			(at 209.55 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C19666"
 			(at 209.55 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -25441,6 +26155,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906982.html"
+			(at 114.3 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 114.3 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -25766,6 +26491,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C22984"
+			(at 85.09 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21fb93e0-5539-466c-98be-751fdfc7d34f")
 		)
@@ -25938,6 +26674,17 @@
 				)
 			)
 		)
+		(property "LCSC P/N" "C14663"
+			(at 111.76 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "695535ae-2750-4d97-a906-ecfad09cdc55")
 		)
@@ -26098,6 +26845,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C2906982.html"
+			(at 30.48 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25804"
 			(at 30.48 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -26347,6 +27105,17 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C148077.html?s_z=n_AW9523B"
+			(at 36.83 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C148077"
 			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
